@@ -1,0 +1,73 @@
+{
+    "users": {
+        "userType": "user type",
+        "kay": {
+            "jsonPaths": [
+                {
+                    "propName": "login name",
+                    "path": "$.userAccountVBO.onlineUser.userName"
+                },
+                {
+                    "propName": "ban",
+                    "path": "$.userAccountVBO.mobile[0].contract.ban"
+                },
+                {
+                    "propName": "msisdn",
+                    "path": "$.userAccountVBO.mobile[0].contract.subscription[0].msisdn"
+                }
+            ]
+        },
+        "marie": {
+            "jsonPaths": [
+                {
+                    "propName": "login name",
+                    "path": "$.userName"
+                },
+                {
+                    "propName": "ban",
+                    "path": "$.mobileContractArray[0].contract.ban"
+                },
+                {
+                    "propName": "msisdn",
+                    "path": "$.mobileContractArray[0].contract.subscription[0].msisdn"
+                }
+            ]
+        },
+        "peter": {
+            "jsonPaths": [
+                {
+                    "propName": "login name",
+                    "path": "$.userName"
+                },
+                {
+                    "propName": "ban",
+                    "path": "$.mobileContractArray[0].contract.ban"
+                },
+                {
+                    "propName": "msisdn",
+                    "path": "$.mobileContractArray[0].contract.subscription[0].msisdn"
+                }
+            ]
+        }
+    },
+    "props": {
+        "loginName": "login name",
+        "sessionId": "mint-session-id"
+    },
+    "urls": {
+        "loginStubServiceUrl": "/stubs/data/[Login]",
+        "userStubsServiceUrl": "/stubs/data/NIL%7C%7CUser"
+    },
+    "services": {
+        "NilUser": "NIL||USER"
+    },
+    "identifersBase": "AUTOMATED",
+    "host": "{{host}}",
+    "serviceDataDetails": "servicesDetails",
+    "excelToJSON": {
+        "recordKeyName": "record ",
+        "serviceIdentifierKey": "service spec name",
+        "serviceUrl": "Service URL",
+        "keyPath": "payload field path&name"
+    }
+}

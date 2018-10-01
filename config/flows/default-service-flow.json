@@ -1,0 +1,43 @@
+{
+    "event": [
+        {
+            "listen": "test",
+            "script": {
+                "type": "text/javascript",
+                "exec": [
+                    "pm.test(\"POST request State\", function () {",
+                    "    pm.expect(pm.response.code).to.be.oneOf([201,202,200]);",
+                    "});"
+                ]
+            }
+        }
+    ],
+    "request": {
+        "method": "PUT",
+        "header": [
+            {
+                "key": "Content-Type",
+                "value": "application/json"
+            },
+            {
+                "key": "Cookie",
+                "value": "{{auth-cookie}}"
+            }
+        ],
+        "body": {
+            "mode": "raw",
+            "raw": {}
+        },
+        "url": {
+            "raw": "",
+            "host": [
+                "{{host}}"
+            ],
+            "path": [
+                "stubs",
+                "data"
+            ]
+        }
+    },
+    "response": []
+}

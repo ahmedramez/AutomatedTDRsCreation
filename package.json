@@ -1,0 +1,20 @@
+{
+  "name": "tdrs_automated_creation",
+  "version": "1.0.0",
+  "description": "tool to simulate and automate the creation of the tdrs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "excel-as-json": "^2.0.2",
+    "express": "^4.16.3",
+    "express-fileupload": "^1.0.0-alpha.1",
+    "jsonpath": "^1.0.0",
+    "newman": "^4.0.2",
+    "newman-reporter-html": "^1.0.1",
+    "underscore": "^1.9.1"
+  }
+}

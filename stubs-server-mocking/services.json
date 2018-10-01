@@ -1,0 +1,90 @@
+{
+    "services": [
+        {
+            "url": "/api/de-web/enterprise-resources/core/bss/cus-nil/mobile/customer/customer-parties/{msisdn}/marketing-indicators?market-code=MMC",
+            "name": "NIL_marketing-indicators_GET",
+            "defaultResponse": {
+                "customerPartyVBO": [
+                    {
+                        "type": "mobile",
+                        "details": {
+                            "accountId": "106375182",
+                            "msisdn": "4915204365007",
+                            "marketCode": "MMC"
+                        },
+                        "marketingPreferences": {
+                            "permissionStatus": "Initial",
+                            "permissionsList": [
+                                {
+                                    "permissionId": "ADV",
+                                    "bewVersion": 2,
+                                    "bewText": "Ja, ich willige ein, dass Vodafone und Vodafone Kabel Deutschland mich telefonisch, per E-Mail, Messenger, SMS und MMS über Angebote von Vodafone und Vodafone Kabel Deutschland informieren.Ich kann meine Einwilligung jederzeit ganz oder teilweise mit Wirkung für die Zukunft widerrufen.",
+                                    "bewEffectiveDate": "2017-04-12",
+                                    "permissionValue": false,
+                                    "serviceId": "TOUT"
+                                },
+                                {
+                                    "permissionId": "DEV",
+                                    "bewVersion": 3,
+                                    "bewText": "Ja, ich willige ein, dass die Vodafone GmbH und die Vodafone Kabel Deutschland GmbH meine Bestandsdaten untereinander austauschen, um mich individuell zu beraten, für ihre Angebote zu werben und Marktforschung zu betreiben.Meine Bestandsdaten sind Angaben rund um mein Vertragsverhältnis, z.B. Name, Adresse und Geburtsdatum sowie Tarife, Optionen und Services.Ja, ich willige ein, dass meine Nutzungsdaten und meine Verkehrsdaten höchstens 6 Monate verwendet werden, um Telekommunikations- und Telemedien-Dienste bedarfsgerecht und individuell zu gestalten und zu vermarkten sowie Dienste mit Zusatznutzen für mich bereitzustellen.Meine Nutzungsdaten sind Informationen über Art, Umfang und Zeitpunkt der Nutzung der Webseiten von Vodafone, Vodafone Kabel    Deutschland oder Kooperations- und Werbepartnern. Die Daten identifizieren mich oder mein Gerät direkt und sind zum Teil in meinem Gerät gespeichert, z.B. als Cookies.Meine Verkehrsdaten sind z.B. die Art des genutzten Telekommunikationsdienstes, Anfang, Ende und Dauer der Verbindungen, das genutzte Datenvolumen, an der Kommunikation beteiligte Personen, Geräte oder Anschlüsse sowie deren Standorte.",
+                                    "bewEffectiveDate": "2017-04-12",
+                                    "permissionValue": false,
+                                    "serviceId": "PDEV"
+                                },
+                                {
+                                    "permissionId": "DEV",
+                                    "bewVersion": 3,
+                                    "bewText": "Ja, ich willige ein, dass die Vodafone GmbH und die Vodafone Kabel Deutschland GmbH meine Bestandsdaten untereinander austauschen, um mich individuell zu beraten, für ihre Angebote zu werben und Marktforschung zu betreiben.Meine Bestandsdaten sind Angaben rund um mein Vertragsverhältnis, z.B. Name, Adresse und Geburtsdatum sowie Tarife, Optionen und Services.Ja, ich willige ein, dass meine Nutzungsdaten und meine Verkehrsdaten höchstens 6 Monate verwendet werden, um Telekommunikations- und Telemedien-Dienste bedarfsgerecht und individuell zu gestalten und zu vermarkten sowie Dienste mit Zusatznutzen für mich bereitzustellen.Meine Nutzungsdaten sind Informationen über Art, Umfang und Zeitpunkt der Nutzung der Webseiten von Vodafone, Vodafone Kabel    Deutschland oder Kooperations- und Werbepartnern. Die Daten identifizieren mich oder mein Gerät direkt und sind zum Teil in meinem Gerät gespeichert, z.B. als Cookies.Meine Verkehrsdaten sind z.B. die Art des genutzten Telekommunikationsdienstes, Anfang, Ende und Dauer der Verbindungen, das genutzte Datenvolumen, an der Kommunikation beteiligte Personen, Geräte oder Anschlüsse sowie deren Standorte.",
+                                    "bewEffectiveDate": "2017-04-12",
+                                    "permissionValue": false,
+                                    "serviceId": "CDEV"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "url": "/api/de-web/enterprise-resources/core/bss/sub-nil/{type}/subscriptions/{msisdn}/subscriber-details?market-code=MMC",
+            "name": "NIL_Subscription_SubsciberType_GET_subscription",
+            "defaultResponse": {
+                "subscriptionVBO": {
+                    "accountId": "5348435904905",
+                    "subscriptions": [
+                        {
+                            "details": {
+                                "msisdn": "2222",
+                                "marketCode": "MMC",
+                                "subType": "TN"
+                            },
+                            "services": {
+                                "socList": [
+                                    "DASROW1D",
+                                    "DIVPN",
+                                    "VF_DASRP",
+                                    "MBOXANSP",
+                                    "ADV_GRATI"
+                                ],
+                                "authorisationServicesList": [
+                                    "wallet"
+                                ],
+                                "hasHappyFamilySoc": true,
+                                "hasCloudSoc": false,
+                                "hasWalletSoc": false,
+                                "hasAddressBook": false,
+                                "hasZuhauseProduct": false,
+                                "hasSSNConsumerSoc": false,
+                                "hasSSNEnterpriseSoc": false,
+                                "isSharingGroupOwner": false,
+                                "isSharingGroupMember": false,
+                                "hasUltraCard": true
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "serviceBaseUrl": "/stubs/data/"
+}

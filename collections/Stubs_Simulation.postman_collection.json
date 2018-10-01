@@ -1,0 +1,168 @@
+{
+	"info": {
+		"_postman_id": "29549086-4515-49b1-a3d8-c525e574196c",
+		"name": "Stubs Simulation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"console.log(pm)",
+							"pm.globals.set(\"mint-session-id\", JSON.parse(pm.request.body.raw).identifiers['mint-session-id']);",
+							"",
+							"pm.globals.set(\"auth-cookie\", \"SSOC=eyJ1c2VyIjp7Il9pZCI6IjVhYzI0NTFmNDE4MWM1MjE5NTM2NDUxNSIsImVtYWlsIjoiYWhtZWQucmFtZXotbWFobW91ZEB2b2RhZm9uZS5jb20iLCJ1c2VybmFtZSI6IkFobWVkIFJhbWV6IEVsIERlZWIiLCJwYXNzd29yZCI6IjY1MTU1IiwiYXBwbGljYXRpb25zIjpbeyJuYW1lIjoic3R1YnMiLCJtYXJrZXRzIjpbImRlIl19XX0sImlhdCI6MTUyNTg2MTE5NiwiZXhwIjoxNTI3MDcwNzk2fQ.tXAmfAqH3pqLQ0iSn6kc0dGvrc0vXDW2D6sFBfJv8yc; instance=de-web\");",
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Successful POST request\", function () {",
+							"    pm.expect(pm.response.code).to.be.oneOf([201,202,200]);",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "{{auth-cookie}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"stubName\": \"dummyTest12345\",\r\n    \"respCode\": \"200\",\r\n    \"identifiers\": {\r\n        \"username\": \"dummyTest12345\",\r\n        \"password\": \"paulTest1234\",\r\n        \"mint-session-id\": \"paulTest1234\"\r\n    },\r\n    \"data\": {\r\n        \"userId\": \"12345\"\r\n    },\r\n    \"cookiesData\": {\r\n        \"authHint\": \"valid-session\",\r\n        \"mint-session-id\": \"paulTest123\",\r\n        \"MDDKeks\": \"{\\\"marketCode\\\": [\\\"MMO\\\", \\\"MMC\\\"],\\\"loginName\\\": \\\"mixed2\\\",\\\"userFirstname\\\": \\\"mixed\\\",\\\"userLastname\\\": \\\"mixed\\\",\\\"customerType\\\": \\\"mobileDSL\\\",\\\"lastLoginDate\\\": \\\"1515595116912\\\"\\n}\"\r\n    },\r\n    \"headers\": [\r\n        {\r\n            \"key\": \"X-Redirect-Location\",\r\n            \"value\": \"\"\r\n        }\r\n    ],\r\n    \"replaceFlag\": true,\r\n    \"lastUpdateDate\": 1527068762843,\r\n    \"lastUpdatedBy\": \"5ac2451f4181c52195364515\"\r\n}"
+				},
+				"url": {
+					"raw": "{{host}}/stubs/data/[Login]",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"stubs",
+						"data",
+						"[Login]"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NIL||USER",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"NIL||USER POST request\", function () {",
+							"    pm.expect(pm.response.code).to.be.oneOf([201,202,200]);",
+							"});"
+						]
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "374e2081-d16d-41eb-83a0-b11fbde899d8",
+						"type": "text/javascript",
+						"exec": [
+							"console.log(\"value is === \",typeof(pm.globals.get(\"mintSessionId\")))",
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "{{auth-cookie}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"stubName\": \"test account\",\r\n    \"respCode\": \"200\",\r\n    \"identifiers\": {\r\n        \"mint-session-id\": \"{{mint-session-id}}\"\r\n    },\r\n    \"data\": {\r\n        \"mintUserID\": 186563784,\r\n        \"onlineUserID\": 31349777,\r\n        \"userName\": \"testuser1355\",\r\n        \"primaryEmail\": \"john.doe@vodafone.com\",\r\n        \"emailValidationStatus\": \"c\",\r\n        \"firstName\": \"Max\",\r\n        \"lastName\": \"Mustermann\",\r\n        \"isFirstLogin\": false,\r\n        \"permissionFlag\": false,\r\n        \"mobileContractArray\": [\r\n            {\r\n                \"contract\": {\r\n                    \"mboId\": 12345678,\r\n                    \"mboName\": \"test name 123\",\r\n                    \"partyRoleId\": 34624523,\r\n                    \"ban\": 96428393,\r\n                    \"marketCode\": \"MMC\",\r\n                    \"subType\": \"EK\",\r\n                    \"role\": \"CustomerAccountAdmin\",\r\n                    \"access\": \"CustomerAccount\",\r\n                    \"status\": \"effective\",\r\n                    \"registrationDate\": \"2012-01-19\",\r\n                    \"isActiveContract\": false,\r\n                    \"subscription\": [\r\n                        {\r\n                            \"mboId\": 12345678,\r\n                            \"mboName\": \"Single Card1\",\r\n                            \"partyRoleId\": 34624521,\r\n                            \"ban\": 96428536,\r\n                            \"msisdn\": 49172612340255,\r\n                            \"marketCode\": \"MMC\",\r\n                            \"subType\": \"EK\",\r\n                            \"role\": \"SubscriptionAdmin\",\r\n                            \"access\": \"AccessSubscription\",\r\n                            \"status\": \"effective\",\r\n                            \"registrationDate\": \"2012-01-19\",\r\n                            \"isActiveContract\": false,\r\n                            \"isFemtoSubscription\": false\r\n                        }\r\n                    ]\r\n                }\r\n            }\r\n        ],\r\n        \"fixednetContractArray\": [\r\n          \r\n        ],\r\n        \"cableContractArray\": [\r\n       \r\n        ]\r\n    },\r\n    \"cookiesData\": null,\r\n    \"headers\": [],\r\n    \"replaceFlag\": true,\r\n    \"lastUpdateDate\": 1527068013204,\r\n    \"lastUpdatedBy\": \"5ac2451f4181c52195364515\"\r\n}"
+				},
+				"url": {
+					"raw": "{{host}}/stubs/data/NIL%7C%7CUser",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"stubs",
+						"data",
+						"NIL%7C%7CUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NIL_Subscription_SubsciberType_GET_subscription",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Successful POST request\", function () {",
+							"    pm.expect(pm.response.code).to.be.oneOf([201,202,200]);",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "{{auth-cookie}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"stubName\": \"test creation automated\",\r\n    \"respCode\": \"200\",\r\n    \"identifiers\": {\r\n        \"msisdn\": \"491726031902\"\r\n    },\r\n    \"data\": {\r\n        \"subscriptionVBO\": {\r\n            \"accountId\": \"320900000\",\r\n            \"type\": \"mobile\",\r\n            \"subscriptions\": [\r\n                {\r\n                    \"details\": {\r\n                        \"msisdn\": \"491726031902\",\r\n                        \"marketCode\": \"MMC\",\r\n                        \"subType\": \"EK\"\r\n                    },\r\n                    \"services\": {\r\n                        \"socList\": [\r\n                            \"VFGROUP\",\r\n                            \"MAILBOXCY\",\r\n                            \"LTE4GDEB2\",\r\n                            \"UCM\"\r\n                        ],\r\n                        \"hasHappyFamilySoc\": true,\r\n                        \"hasCloudSoc\": true,\r\n                        \"hasWalletSoc\": true,\r\n                        \"hasAddressBook\": true,\r\n                        \"hasZuhauseProduct\": false,\r\n                        \"hasSSNConsumerSoc\": false,\r\n                        \"hasSSNEnterpriseSoc\": false,\r\n                        \"isSharingGroupOwner\": true,\r\n                        \"isSharingGroupMember\": false,\r\n                        \"hasUltraCard\": false\r\n                    }\r\n                }\r\n            ]\r\n        }\r\n    },\r\n    \"cookiesData\": null,\r\n    \"headers\": [],\r\n    \"replaceFlag\": true,\r\n    \"lastUpdateDate\": 1527070470273,\r\n    \"lastUpdatedBy\": \"5ac2451f4181c52195364515\"\r\n}"
+				},
+				"url": {
+					"raw": "{{host}}/stubs/data/NIL_Subscription_SubsciberType_GET_subscription",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"stubs",
+						"data",
+						"NIL_Subscription_SubsciberType_GET_subscription"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

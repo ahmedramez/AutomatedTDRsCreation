@@ -1,0 +1,26 @@
+{
+    "name": "Login",
+    "event": [
+        {
+            "listen": "prerequest",
+            "script": {
+                "type": "text/javascript",
+                "exec": [
+                    "pm.globals.set(\"auth-cookie\", \"SSOC=SSOC=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjVhYzI0NTFmNDE4MWM1MjE5NTM2NDUxNSIsImVtYWlsIjoiYWhtZWQucmFtZXotbWFobW91ZEB2b2RhZm9uZS5jb20iLCJ1c2VybmFtZSI6IkFobWVkIFJhbWV6IEVsIERlZWIiLCJwYXNzd29yZCI6IjY0NTc5IiwiYXBwbGljYXRpb25zIjpbeyJuYW1lIjoic3R1YnMiLCJtYXJrZXRzIjpbImRlIl19XX0sImlhdCI6MTUzODM5NzEzNiwiZXhwIjoxNTM5NjA2NzM2fQ.Cq8X-xk8qYQrNtneKQCsJAk0oRhmUYfC23uEksb74o4.tXAmfAqH3pqLQ0iSn6kc0dGvrc0vXDW2D6sFBfJv8yc; instance=de-web\");",
+                    ""
+                ]
+            }
+        },
+        {
+            "listen": "test",
+            "script": {
+                "type": "text/javascript",
+                "exec": [
+                    "pm.test(\"POST request State\", function () {",
+                    "    pm.expect(pm.response.code).to.be.oneOf([201,202,200]);",
+                    "});"
+                ]
+            }
+        }
+    ]
+}
