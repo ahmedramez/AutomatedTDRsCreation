@@ -1,0 +1,14 @@
+{
+    "stubName": "",
+    "respCode": "200",
+    "identifiers": {
+        "mint-session-id": ""
+    },
+    "data": {},
+    "cookiesData": null,
+    "headers": [],
+    "replaceFlag": true,
+    "lastUpdateDate": 1538245236721,
+    "lastUpdatedBy": "5ac2451f4181c52195364515",
+    "stubsDataSelectedType": "DEV"
+}

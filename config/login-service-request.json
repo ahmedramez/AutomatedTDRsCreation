@@ -1,0 +1,26 @@
+{
+    "stubName": "",
+    "respCode": "200",
+    "identifiers": {
+        "username": "",
+        "password": ""
+    },
+    "data": {
+        "userId": "12345"
+    },
+    "cookiesData": {
+        "authHint": "valid-session",
+        "mint-session-id": "",
+        "MDDKeks": "{\"marketCode\": [\"MMO\", \"MMC\"],\"loginName\": \"mixed2\",\"userFirstname\": \"mixed\",\"userLastname\": \"mixed\",\"customerType\": \"mobileDSL\",\"lastLoginDate\": \"1515595116912\"\n}"
+    },
+    "headers": [
+        {
+            "key": "X-Redirect-Location",
+            "value": ""
+        }
+    ],
+    "replaceFlag": true,
+    "lastUpdateDate": 1538241232037,
+    "lastUpdatedBy": "5ac2451f4181c52195364515",
+    "stubsDataSelectedType": "DEV"
+}

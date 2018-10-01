@@ -1,0 +1,136 @@
+{
+
+    "kay": {
+        "userAccountVBO": {
+            "onlineUser": {
+                "onlineUserID": 23243255,
+                "userName": "address.kay01",
+                "title": "Herr",
+                "firstName": "contactData",
+                "lastName": "Kay",
+                "lastLoginDate": "2015-03-01T12:02:00",
+                "primaryEmail": "john.doe@arcor.de",
+                "isFirstLogin": false,
+                "LastSelectedMBO": 201505001,
+                "LastSelectedMBOname": "Amazing Contract"
+            },
+            "mobile": [
+                {
+                    "contract": {
+                        "mboId": 201505001,
+                        "mboName": "Kay Contact",
+                        "partyRoleId": 111790,
+                        "ban": "3102550015",
+                        "marketCode": "MMC",
+                        "subType": "KD",
+                        "role": "CustomerAccountAdmin",
+                        "access": "CustomerAccount",
+                        "status": "effective",
+                        "registrationDate": "2015-01-02",
+                        "isLastSelectedMBO": true,
+                        "subscription": [
+                            {
+                                "mboId": 201505003,
+                                "mboName": "Kay2",
+                                "partyRoleId": 111791,
+                                "ban": "3102550014",
+                                "msisdn": 4915222017724,
+                                "marketCode": "MMC",
+                                "subType": "TN",
+                                "role": "SubscriptionAdmin",
+                                "access": "FemtoAccessSubscription",
+                                "status": "effective",
+                                "registrationDate": "2015-02-02",
+                                "isLastSelectedMBO": false,
+                                "isFemtoSubscription": false
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "marie": {
+        "mintUserID": 186563784,
+        "onlineUserID": 31349777,
+        "userName": "testuser1",
+        "primaryEmail": "john.doe@vodafone.com",
+        "emailValidationStatus": "c",
+        "firstName": "Max",
+        "lastName": "Mustermann",
+        "isFirstLogin": false,
+        "permissionFlag": false,
+        "mobileContractArray": [
+            {
+                "contract": {
+                    "mboId": 12345678,
+                    "mboName": "test name",
+                    "partyRoleId": 34624523,
+                    "ban": 9642601,
+                    "marketCode": "MMC",
+                    "subType": "ek",
+                    "role": "CustomerAccountAdmin",
+                    "access": "CustomerAccount",
+                    "status": "effective",
+                    "registrationDate": "2012-01-19",
+                    "isActiveContract": false,
+                    "subscription": [
+                        {
+                            "mboId": 12345678,
+                            "mboName": "Single Card1",
+                            "partyRoleId": 34624521,
+                            "ban": 9642601,
+                            "msisdn": 4915228825603,
+                            "marketCode": "MMC",
+                            "subType": "ek",
+                            "role": "SubscriptionAdmin",
+                            "access": "AccessSubscription",
+                            "status": "effective",
+                            "registrationDate": "2012-01-19",
+                            "isActiveContract": false,
+                            "isFemtoSubscription": false
+                        }
+                    ]
+                }
+            }
+        ],
+        "fixednetContractArray": [],
+        "cableContractArray": []
+    },
+    "peter": {
+        "mintUserID": 186563784,
+        "onlineUserID": 31349777,
+        "userName": "testuser1",
+        "primaryEmail": "john.doe@vodafone.com",
+        "emailValidationStatus": "c",
+        "firstName": "Max",
+        "lastName": "Mustermann",
+        "isFirstLogin": false,
+        "permissionFlag": false,
+        "mobileContractArray": [
+            {
+                "contract": {
+                    "subscription": [
+                        {
+                            "mboId": 12345678,
+                            "mboName": "Single Card1",
+                            "partyRoleId": 34624521,
+                            "ban": 9642602,
+                            "msisdn": 4915228825604,
+                            "marketCode": "MMC",
+                            "subType": "tn",
+                            "role": "SubscriptionAdmin",
+                            "access": "AccessSubscription",
+                            "status": "effective",
+                            "registrationDate": "2012-01-19",
+                            "isActiveContract": false,
+                            "isFemtoSubscription": false
+                        }
+                    ]
+                }
+            }
+        ],
+        "fixednetContractArray": [],
+        "cableContractArray": []
+    }
+}
