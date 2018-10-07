@@ -4,9 +4,9 @@
     "Service URL": "",
     "i": "",
     "payload field path&name": "",
-    "record 1": "test.lobna",
-    "record 2": "test.demo2",
-    "record 3": "test.demo3"
+    "record 1": "test4rty123",
+    "record 2": "test",
+    "record 3": "test"
   },
   {
     "service spec name": "user type",
@@ -67,9 +67,9 @@
     "Service URL": "",
     "i": "",
     "payload field path&name": "",
-    "record 1": 100000088888,
-    "record 2": 10000009999,
-    "record 3": 10000009977
+    "record 1": 12345666666,
+    "record 2": 5020300003,
+    "record 3": 1098763
   },
   {
     "service spec name": "MBO name",
@@ -121,9 +121,9 @@
     "Service URL": "{baseURL}/api/de-web/enterprise-resources/core/bss/cus-nil/mobile/customer/customer-parties/{msisdn}/marketing-indicators?market-code=MMC",
     "i": 0,
     "payload field path&name": "customerPartyVBO[0]. marketingPreferences. permissionsList[0].serviceId",
-    "record 1": 1,
-    "record 2": "PDEV13",
-    "record 3": "PDEV14"
+    "record 1": "PDEV",
+    "record 2": "PDEV",
+    "record 3": "PDEV"
   },
   {
     "service spec name": "marketing-indicators GET",
@@ -138,8 +138,8 @@
     "service spec name": "marketing-indicators GET",
     "Service URL": "{baseURL}/api/de-web/enterprise-resources/core/bss/cus-nil/mobile/customer/customer-parties/{msisdn}/marketing-indicators?market-code=MMC",
     "i": 1,
-    "payload field path&name": "customerPartyVBO[0]. marketingPreferences. permissionsList[1].serviceId",
-    "record 1": "CDEV",
+    "payload field path&name": "customerPartyVBO[0]. marketingPreferences. permissionsList[1].serviceIdded",
+    "record 1": "CDEV ",
     "record 2": "CDEV ",
     "record 3": "CDEV "
   },
@@ -157,7 +157,7 @@
     "Service URL": "{baseURL}/api/de-web/enterprise-resources/core/bss/cus-nil/mobile/customer/customer-parties/{msisdn}/marketing-indicators?market-code=MMC",
     "i": 2,
     "payload field path&name": "customerPartyVBO[0]. marketingPreferences. permissionsList[2].serviceId",
-    "record 1": "GEOLobna",
+    "record 1": "GEO",
     "record 2": "GEO ",
     "record 3": "GEO "
   },
