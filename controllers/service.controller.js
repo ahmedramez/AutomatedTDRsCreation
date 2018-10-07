@@ -6,7 +6,6 @@ let serviceFlow = require('../config/flows/default-service-flow.json');
 let loginServiceRequest = require('../config/login-service-request.json');
 let userServiceRequest = require('../config/user-service-request.json');
 let Defines = require('../config/defines.json');
-let newManFlowInfo = require('../config/flows/newman-flow-info.json');
 
 //getting the service mapped with the new values  [this is the final response when we call the service from stubs].
 function mapToStubService(service, responseCallback) {
@@ -43,12 +42,10 @@ function replaceIdentifersByValues(url, identifiers) {
  * @param user represents user simple info that placed in TDRs Excel Sheet
  */
 function registerUserLoginFlow(user) {
-    let collectionFlow = {};
+    let collectionFlow = [];
     let userData = userService.getUserData(user);
-    collectionFlow.info = newManFlowInfo.info;
-    collectionFlow.item = [];
-    collectionFlow.item.push(registerLoginFlow(user));
-    collectionFlow.item.push(registerUserFlow(userData));
+    collectionFlow.push(registerLoginFlow(user));
+    collectionFlow.push(registerUserFlow(userData));
     return collectionFlow;
 }
 
@@ -126,7 +123,9 @@ function getIdentfierDetails(identifiers) {
         if (identifiers[i] && !(Object.keys(identifiers[i]).length === 0) && identifiers[i].constructor === Object) {
             //get the value of the object key 
             identObj[Object.keys(identifiers[i])[0]] = identifiers[i][Object.keys(identifiers[i])[0]];
-            identDesc += ' | ' + identifiers[i][Object.keys(identifiers[i])[0]];
+            if (identifiers[i][Object.keys(identifiers[i])[0]]) {
+                identDesc += ' | ' + identifiers[i][Object.keys(identifiers[i])[0]];
+            }
         }
     }
     return {

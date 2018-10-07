@@ -1,0 +1,191 @@
+[
+  {
+    "service spec name": "Login Name",
+    "Service URL": "",
+    "i": "",
+    "payload field path&name": "",
+    "record 1": "test.lobna",
+    "record 2": "test.demo2",
+    "record 3": "test.demo3"
+  },
+  {
+    "service spec name": "user type",
+    "Service URL": "",
+    "i": "",
+    "payload field path&name": "",
+    "record 1": "marie",
+    "record 2": "marie",
+    "record 3": "marie"
+  },
+  {
+    "service spec name": "Market",
+    "Service URL": "",
+    "i": "",
+    "payload field path&name": "",
+    "record 1": "mmc",
+    "record 2": "mmc",
+    "record 3": "mmc"
+  },
+  {
+    "service spec name": "contract subType",
+    "Service URL": "",
+    "i": "",
+    "payload field path&name": "",
+    "record 1": "kd",
+    "record 2": "kd",
+    "record 3": "kd"
+  },
+  {
+    "service spec name": "# of BANs/ACNs",
+    "Service URL": "",
+    "i": "",
+    "payload field path&name": "",
+    "record 1": 1,
+    "record 2": 1,
+    "record 3": 1
+  },
+  {
+    "service spec name": "BAN",
+    "Service URL": "",
+    "i": "",
+    "payload field path&name": "",
+    "record 1": "TBD",
+    "record 2": "TBD",
+    "record 3": "TBD"
+  },
+  {
+    "service spec name": "# of MSISDNs",
+    "Service URL": "",
+    "i": "",
+    "payload field path&name": "",
+    "record 1": 2,
+    "record 2": 2,
+    "record 3": 2
+  },
+  {
+    "service spec name": "MSISDN",
+    "Service URL": "",
+    "i": "",
+    "payload field path&name": "",
+    "record 1": 100000088888,
+    "record 2": 10000009999,
+    "record 3": 10000009977
+  },
+  {
+    "service spec name": "MBO name",
+    "Service URL": "",
+    "i": "",
+    "payload field path&name": "",
+    "record 1": "Default",
+    "record 2": "Default",
+    "record 3": "Default"
+  },
+  {
+    "service spec name": "subscription subType",
+    "Service URL": "",
+    "i": "",
+    "payload field path&name": "",
+    "record 1": "tn",
+    "record 2": "tn",
+    "record 3": "tn"
+  },
+  {
+    "service spec name": "Subscriber Properties",
+    "Service URL": "",
+    "i": "",
+    "payload field path&name": "",
+    "record 1": "\"isFemtoSubscription\":false",
+    "record 2": "\"isFemtoSubscription\":false",
+    "record 3": "\"isFemtoSubscription\":false"
+  },
+  {
+    "service spec name": "provided  TD - restrictions",
+    "Service URL": "",
+    "i": "",
+    "payload field path&name": "n/a",
+    "record 1": "",
+    "record 2": "",
+    "record 3": ""
+  },
+  {
+    "service spec name": "marketing-indicators GET",
+    "Service URL": "{baseURL}/api/de-web/enterprise-resources/core/bss/cus-nil/mobile/customer/customer-parties/{msisdn}/marketing-indicators?market-code=MMC",
+    "i": "n/a",
+    "payload field path&name": "customerPartyVBO[0].marketingPreferences.permissionsList[0].bewVersion",
+    "record 1": 3,
+    "record 2": 4,
+    "record 3": 4
+  },
+  {
+    "service spec name": "marketing-indicators GET",
+    "Service URL": "{baseURL}/api/de-web/enterprise-resources/core/bss/cus-nil/mobile/customer/customer-parties/{msisdn}/marketing-indicators?market-code=MMC",
+    "i": 0,
+    "payload field path&name": "customerPartyVBO[0]. marketingPreferences. permissionsList[0].serviceId",
+    "record 1": 1,
+    "record 2": "PDEV13",
+    "record 3": "PDEV14"
+  },
+  {
+    "service spec name": "marketing-indicators GET",
+    "Service URL": "{baseURL}/api/de-web/enterprise-resources/core/bss/cus-nil/mobile/customer/customer-parties/{msisdn}/marketing-indicators?market-code=MMC",
+    "i": 0,
+    "payload field path&name": "customerPartyVBO[0]. marketingPreferences. permissionsList[0].permissionValue",
+    "record 1": "true ",
+    "record 2": "true ",
+    "record 3": "true "
+  },
+  {
+    "service spec name": "marketing-indicators GET",
+    "Service URL": "{baseURL}/api/de-web/enterprise-resources/core/bss/cus-nil/mobile/customer/customer-parties/{msisdn}/marketing-indicators?market-code=MMC",
+    "i": 1,
+    "payload field path&name": "customerPartyVBO[0]. marketingPreferences. permissionsList[1].serviceId",
+    "record 1": "CDEV",
+    "record 2": "CDEV ",
+    "record 3": "CDEV "
+  },
+  {
+    "service spec name": "marketing-indicators GET",
+    "Service URL": "{baseURL}/api/de-web/enterprise-resources/core/bss/cus-nil/mobile/customer/customer-parties/{msisdn}/marketing-indicators?market-code=MMC",
+    "i": 1,
+    "payload field path&name": "customerPartyVBO[0]. marketingPreferences. permissionsList[1].permissionValue",
+    "record 1": true,
+    "record 2": true,
+    "record 3": true
+  },
+  {
+    "service spec name": "marketing-indicators GET",
+    "Service URL": "{baseURL}/api/de-web/enterprise-resources/core/bss/cus-nil/mobile/customer/customer-parties/{msisdn}/marketing-indicators?market-code=MMC",
+    "i": 2,
+    "payload field path&name": "customerPartyVBO[0]. marketingPreferences. permissionsList[2].serviceId",
+    "record 1": "GEOLobna",
+    "record 2": "GEO ",
+    "record 3": "GEO "
+  },
+  {
+    "service spec name": "marketing-indicators GET",
+    "Service URL": "{baseURL}/api/de-web/enterprise-resources/core/bss/cus-nil/mobile/customer/customer-parties/{msisdn}/marketing-indicators?market-code=MMC",
+    "i": 2,
+    "payload field path&name": "customerPartyVBO[0]. marketingPreferences. permissionsList[2].permissionValue",
+    "record 1": "true ",
+    "record 2": "false ",
+    "record 3": "false "
+  },
+  {
+    "service spec name": "Status",
+    "Service URL": "",
+    "i": "",
+    "payload field path&name": "",
+    "record 1": "Success",
+    "record 2": "Success",
+    "record 3": "Success"
+  },
+  {
+    "service spec name": "end-of-list",
+    "Service URL": "",
+    "i": "",
+    "payload field path&name": "",
+    "record 1": "",
+    "record 2": "",
+    "record 3": ""
+  }
+]

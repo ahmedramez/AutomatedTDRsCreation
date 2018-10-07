@@ -7,7 +7,8 @@ module.exports = {
         //removing baseUrl
         url = url.replace('{baseURL}', '');
         let service = services.find(e => e.url == url);
-        service.url = serviceBaseUrl + service.name;
-        callback(service);
+        let serviceCopy = JSON.parse(JSON.stringify(service));
+        serviceCopy.url = serviceBaseUrl + serviceCopy.name;
+        callback(serviceCopy);
     }
 }

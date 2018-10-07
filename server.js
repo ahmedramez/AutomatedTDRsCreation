@@ -3,7 +3,7 @@ const express = require('express');
 const fileUpload = require('express-fileupload');
 const fs = require('fs');
 const path = require('path');
-
+let helper = require('./helper/helper');
 let { convertExcelToJSON } = require('./controllers/excel.to.json.controller');
 let flowsLauncher = require('./controllers/flow.launcher.controller');
 
@@ -14,11 +14,11 @@ app.post('/api/tdrs/upload', (req, res) => {
     let sampleFile = req.files.sampleFile;
     fs.writeFileSync('./target.xlsx', sampleFile.data);
     convertExcelToJSON().then((response) => {
-        flowsLauncher.launchFlows(response['record 1'])
-        res.sendFile(path.resolve(__dirname, './newman/newman-run-report-2018-10-01-17-59-03-638-0.html'));
+        flowsLauncher.launchFlows(response, () => {
+            res.sendFile(path.resolve(__dirname, './newman/' + helper.getNewestFileInDir(path.resolve(__dirname, './newman'))));
+        });
     })
 })
-
 
 app.listen(3000, () => console.log("SERVER IS RUNING ON PORT 3000"));
 
