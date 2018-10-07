@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cryptiles": "^4.1.2",
     "excel-as-json": "^2.0.2",
     "express": "^4.16.3",
     "express-fileupload": "^1.0.0-alpha.1",
