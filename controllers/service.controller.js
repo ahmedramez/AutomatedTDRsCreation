@@ -15,7 +15,17 @@ function mapToStubService(service, responseCallback) {
             //handling jsonPath Format and remove spaces in path if found
             let jpKey = '$.' + service.paths[i].key.replace(/\s/g, '');
             jp.apply(serviceData.defaultResponse, jpKey, function (value) {
-                value = service.paths[i].value;
+                //set n/a values to be null but it should be removed in future not just placing it as null
+                if (service.paths[i].value instanceof String && service.paths[i].value.toLowerCase() === 'n/a') {
+                    value = null;
+                } else if (service.paths[i].value instanceof String && service.paths[i].value.toLowerCase() === 'true') {
+                    value = true;
+                } else if (service.paths[i].value instanceof String && service.paths[i].value.toLowerCase() === 'false') {
+                    value = false;
+                }
+                else {
+                    value = service.paths[i].value;
+                }
                 return value;
             });
         }
@@ -79,7 +89,9 @@ function registerServiceFlow(service) {
             rawBody = updateRawBody(rawBody, {
                 stubName: Defines.identifersBase + identiferDetials.identDesc,
                 bodyData: response.defaultResponse,
-                identifiers: identiferDetials.identiferAsObj
+                identifiers: identiferDetials.identiferAsObj,
+                replaceFlag: false,
+                stubsDataSelectedType: 'DEV'
             })
             let serviceDataDetails = updateServiceFlowDetails(customServiceFlow, {
                 name: response.name,
@@ -121,8 +133,8 @@ function getIdentfierDetails(identifiers) {
     for (let i = 0; i < identifiers.length; i++) {
         //check if identifer is not empty
         if (identifiers[i] && !(Object.keys(identifiers[i]).length === 0) && identifiers[i].constructor === Object) {
-            //get the value of the object key 
-            identObj[Object.keys(identifiers[i])[0]] = identifiers[i][Object.keys(identifiers[i])[0]];
+            //get the value of the object key and set identifer as String
+            identObj[Object.keys(identifiers[i])[0]] = String(identifiers[i][Object.keys(identifiers[i])[0]]);
             if (identifiers[i][Object.keys(identifiers[i])[0]]) {
                 identDesc += ' | ' + identifiers[i][Object.keys(identifiers[i])[0]];
             }
@@ -145,6 +157,14 @@ function updateServiceFlowDetails(serviceFlow, data) {
 function updateRawBody(rawBody, data) {
     rawBody.stubName = data.stubName;
     rawBody.data = data.bodyData;
+    rawBody.replaceFlag = data.replaceFlag;
+    rawBody.stubsDataSelectedType = "DEV";
+    rawBody.respCode = "200";
+    rawBody.headers = [];
+    rawBody.lastUpdateDate = new Date();
+    rawBody.lastUpdatedBy = "5ac2451f4181c52195364515";
+    rawBody.cookiesData = null;
+
     if (data.identifiers) {
         rawBody.identifiers = data.identifiers;
     }

@@ -48,6 +48,38 @@
                     "path": "$.mobileContractArray[0].contract.subscription[0].msisdn"
                 }
             ]
+        },
+        "Marc": {
+            "jsonPaths": [
+                {
+                    "propName": "login name",
+                    "path": "$.userName"
+                },
+                {
+                    "propName": "ban",
+                    "path": "$.fixednetContractArray[0].acn"
+                },
+                {
+                    "propName": "msisdn",
+                    "path": "$.fixednetContractArray[0].acn"
+                }
+            ]
+        },
+        "Paul":{
+            "jsonPaths": [
+                {
+                    "propName": "login name",
+                    "path": "$.userName"
+                },
+                {
+                    "propName": "ban",
+                    "path": "$.mobileContractArray[0].contract.ban"
+                },
+                {
+                    "propName": "msisdn",
+                    "path": "$.mobileContractArray[0].contract.subscription[0].msisdn"
+                }
+            ]
         }
     },
     "props": {

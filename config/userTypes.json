@@ -1,5 +1,4 @@
 {
-
     "kay": {
         "userAccountVBO": {
             "onlineUser": {
@@ -119,6 +118,81 @@
                             "msisdn": 4915228825604,
                             "marketCode": "MMC",
                             "subType": "tn",
+                            "role": "SubscriptionAdmin",
+                            "access": "AccessSubscription",
+                            "status": "effective",
+                            "registrationDate": "2012-01-19",
+                            "isActiveContract": false,
+                            "isFemtoSubscription": false
+                        }
+                    ]
+                }
+            }
+        ],
+        "fixednetContractArray": [],
+        "cableContractArray": []
+    },
+    "Marc": {
+        "mintUserID": 186563784,
+        "onlineUserID": 31349777,
+        "userName": "testuser1",
+        "primaryEmail": "john.doe@vodafone.com",
+        "emailValidationStatus": "c",
+        "firstName": "Max",
+        "lastName": "Mustermann",
+        "isFirstLogin": false,
+        "permissionFlag": false,
+        "mobileContractArray": [],
+        "fixednetContractArray": [
+            {
+                "mboId": 111222333444,
+                "mboName": "DSL Vertrag",
+                "partyRoleId": 31349784,
+                "acn": "112293449999",
+                "uoi": "10010001720823",
+                "subType": "DSL",
+                "role": "SubscriptionAdmin",
+                "access": "DSLAccessSubscription",
+                "status": "effective",
+                "registrationDate": "2011-03-23",
+                "isActiveContract": true
+            }
+        ],
+        "cableContractArray": []
+    },
+    "Paul": {
+        "mintUserID": 186563784,
+        "onlineUserID": 31349777,
+        "userName": "paul",
+        "primaryEmail": "john.doe@vodafone.com",
+        "emailValidationStatus": "c",
+        "firstName": "paul",
+        "lastName": "Mustermann",
+        "isFirstLogin": false,
+        "permissionFlag": false,
+        "mobileContractArray": [
+            {
+                "contract": {
+                    "mboId": 13028160,
+                    "mboName": "paul",
+                    "partyRoleId": 34624523,
+                    "ban": 310255093,
+                    "marketCode": "MMO",
+                    "subType": "EK",
+                    "role": "CustomerAccountAdmin",
+                    "access": "CustomerAccount",
+                    "status": "effective",
+                    "registrationDate": "2012-01-19",
+                    "isActiveContract": false,
+                    "subscription": [
+                        {
+                            "mboId": 13028159,
+                            "mboName": "paul",
+                            "partyRoleId": 34624521,
+                            "ban": 310255094,
+                            "msisdn": 491621100002,
+                            "marketCode": "MMO",
+                            "subType": "EK",
                             "role": "SubscriptionAdmin",
                             "access": "AccessSubscription",
                             "status": "effective",

@@ -38,6 +38,21 @@
                                     "bewEffectiveDate": "2017-04-12",
                                     "permissionValue": false,
                                     "serviceId": "CDEV"
+                                },
+                                {
+                                    "permissionId": "DEV",
+                                    "bewVersion": 3,
+                                    "bewText": "Ja, ich willige ein, dass die Vodafone GmbH und die Vodafone Kabel Deutschland GmbH meine Bestandsdaten untereinander austauschen, um mich individuell zu beraten, für ihre Angebote zu werben und Marktforschung zu betreiben.Meine Bestandsdaten sind Angaben rund um mein Vertragsverhältnis, z.B. Name, Adresse und Geburtsdatum sowie Tarife, Optionen und Services.Ja, ich willige ein, dass meine Nutzungsdaten und meine Verkehrsdaten höchstens 6 Monate verwendet werden, um Telekommunikations- und Telemedien-Dienste bedarfsgerecht und individuell zu gestalten und zu vermarkten sowie Dienste mit Zusatznutzen für mich bereitzustellen.Meine Nutzungsdaten sind Informationen über Art, Umfang und Zeitpunkt der Nutzung der Webseiten von Vodafone, Vodafone Kabel    Deutschland oder Kooperations- und Werbepartnern. Die Daten identifizieren mich oder mein Gerät direkt und sind zum Teil in meinem Gerät gespeichert, z.B. als Cookies.Meine Verkehrsdaten sind z.B. die Art des genutzten Telekommunikationsdienstes, Anfang, Ende und Dauer der Verbindungen, das genutzte Datenvolumen, an der Kommunikation beteiligte Personen, Geräte oder Anschlüsse sowie deren Standorte.",
+                                    "bewEffectiveDate": "2017-04-12",
+                                    "permissionValue": false,
+                                    "serviceId": "CDEV"
+                                },  {
+                                    "permissionId": "DEV",
+                                    "bewVersion": 3,
+                                    "bewText": "Ja, ich willige ein, dass die Vodafone GmbH und die Vodafone Kabel Deutschland GmbH meine Bestandsdaten untereinander austauschen, um mich individuell zu beraten, für ihre Angebote zu werben und Marktforschung zu betreiben.Meine Bestandsdaten sind Angaben rund um mein Vertragsverhältnis, z.B. Name, Adresse und Geburtsdatum sowie Tarife, Optionen und Services.Ja, ich willige ein, dass meine Nutzungsdaten und meine Verkehrsdaten höchstens 6 Monate verwendet werden, um Telekommunikations- und Telemedien-Dienste bedarfsgerecht und individuell zu gestalten und zu vermarkten sowie Dienste mit Zusatznutzen für mich bereitzustellen.Meine Nutzungsdaten sind Informationen über Art, Umfang und Zeitpunkt der Nutzung der Webseiten von Vodafone, Vodafone Kabel    Deutschland oder Kooperations- und Werbepartnern. Die Daten identifizieren mich oder mein Gerät direkt und sind zum Teil in meinem Gerät gespeichert, z.B. als Cookies.Meine Verkehrsdaten sind z.B. die Art des genutzten Telekommunikationsdienstes, Anfang, Ende und Dauer der Verbindungen, das genutzte Datenvolumen, an der Kommunikation beteiligte Personen, Geräte oder Anschlüsse sowie deren Standorte.",
+                                    "bewEffectiveDate": "2017-04-12",
+                                    "permissionValue": false,
+                                    "serviceId": "CDEV"
                                 }
                             ]
                         }

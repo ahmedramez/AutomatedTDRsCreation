@@ -68,7 +68,7 @@ let convertExcelToJSON = () => {
             });
             //resolving record after all mapping processess
             resolve(records);
-            // fs.writeFileSync('./demo.json', JSON.stringify(records));
+            fs.writeFileSync('./demo.json', JSON.stringify(records));
         });
     })
 }

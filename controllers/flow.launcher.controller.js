@@ -6,7 +6,7 @@ const Defines = require('../config/defines.json');
 let newManFlowInfo = require('../config/flows/newman-flow-info.json');
 let helper = require('../helper/helper');
 const path = require('path');
-
+const fs=require('fs');
 
 let registerFlows = async (serviceData) => {
     let allServicesFlows = { item: [], info: newManFlowInfo.info };
@@ -36,6 +36,7 @@ let registerFlows = async (serviceData) => {
 
 let launchFlows = (serviceData, executeFunc) => {
     registerFlows(serviceData).then((response) => {
+        // fs.writeFileSync('flow-request.json',JSON.stringify(response));
         newman.run({
             collection: response,
             reporters: stubsConfig.reporters,
