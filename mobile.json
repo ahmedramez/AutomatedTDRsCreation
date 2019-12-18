@@ -1,0 +1,44 @@
+"components": {
+    "component": [
+      {
+        "type": "tariffMobile",
+        "internalLabel": "Red XS Sub 30.00 (Enjoy more - 2019)",
+        "refId": "1310",
+        "prices": {
+          "price": [
+            {
+              "value": "39,99",
+              "recurrenceUnit": "onetime",
+              "recurrenceStart": "1",
+              "label": "Anschlusspreis",
+              "strikePrice": "0"
+            },
+            {
+              "value": "59,99",
+              "recurrenceUnit": "month",
+              "recurrenceStart": "1",
+              "label": "Monatlicher Preis",
+              "strikePrice": "0"
+            }
+          ]
+        }
+      },
+      {
+        "type": "hardwareMobile",
+        "internalLabel": "Galaxy S10e White &amp; Starter-Kit",
+        "refId": "4755",
+        "prices": {
+          "price": [
+            {
+              "value": "104,9",
+              "recurrenceUnit": "onetime",
+              "recurrenceStart": "0",
+              "recurrenceEnd": "1",
+              "label": "Einmaliger Preis",
+              "strikePrice": "0"
+            }
+          ]
+        }
+      },
+    ]
+  },

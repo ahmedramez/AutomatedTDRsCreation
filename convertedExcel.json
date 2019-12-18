@@ -1,0 +1,95 @@
+{
+    "record 1": {
+        "login name": "testWithOsama",
+        "servicesDetails": [
+            {
+                "url": "/api/de-web/enterprise-resources/core/bss/cus-nil/mobile/customer/customer-parties/{msisdn}/marketing-indicators?market-code=MMC",
+                "identifiers": [
+                    {
+                        "msisdn": 49152820710008
+                    }
+                ],
+                "paths": [
+                    {
+                        "key": "customerPartyVBO[0].marketingPreferences.permissionsList[0].bewVersion ",
+                        "value": 3
+                    },
+                    {
+                        "key": "customerPartyVBO[0]. marketingPreferences. permissionsList[0].serviceId",
+                        "value": "PDEV"
+                    },
+                    {
+                        "key": "customerPartyVBO[0]. marketingPreferences. permissionsList[0].permissionValue",
+                        "value": true
+                    },
+                    {
+                        "key": "customerPartyVBO[0].marketingPreferences.permissionsList[1].bewVersion",
+                        "value": 3
+                    },
+                    {
+                        "key": "customerPartyVBO[0]. marketingPreferences. permissionsList[1].serviceId",
+                        "value": "CDEV12"
+                    },
+                    {
+                        "key": "customerPartyVBO[0]. marketingPreferences. permissionsList[1].permissionValue",
+                        "value": false
+                    },
+                    {
+                        "key": "customerPartyVBO[0].marketingPreferences.permissionsList[2].bewVersion",
+                        "value": 3
+                    },
+                    {
+                        "key": "customerPartyVBO[0]. marketingPreferences. permissionsList[2].serviceId",
+                        "value": "GEO123"
+                    },
+                    {
+                        "key": "customerPartyVBO[0]. marketingPreferences. permissionsList[2].permissionValue",
+                        "value": true
+                    },
+                    {
+                        "key": "customerPartyVBO[0].marketingPreferences.permissionsList[3].bewVersion",
+                        "value": 3
+                    },
+                    {
+                        "key": "customerPartyVBO[0]. marketingPreferences. permissionsList[3].serviceId",
+                        "value": "WBTOsama"
+                    },
+                    {
+                        "key": "customerPartyVBO[0]. marketingPreferences. permissionsList[3].permissionValue",
+                        "value": true
+                    },
+                    {
+                        "key": "customerPartyVBO[0].marketingPreferences.permissionsList[4].bewVersion",
+                        "value": 3
+                    },
+                    {
+                        "key": "customerPartyVBO[0]. marketingPreferences. permissionsList[4].serviceId",
+                        "value": "TOUT"
+                    },
+                    {
+                        "key": "customerPartyVBO[0]. marketingPreferences. permissionsList[4].permissionValue",
+                        "value": false
+                    }
+                ]
+            }
+        ],
+        "user type": "marie",
+        "market": "mmc",
+        "contract subtype": "ek",
+        "# of bans/acns": 1,
+        "ban/acn": 321600890,
+        "# of msisdns": 1,
+        "msisdn": 49152820710008,
+        "mbo name": 1,
+        "subscription subtype": "n/a",
+        "subscriber properties": "no specific",
+        "migrated": "N/A",
+        "login username compliant (onb)": "N/A",
+        "email": "N/A",
+        "verified email": "N/A",
+        "provided  td - restrictions": "",
+        "marketing-indicators get": false,
+        "status": "Success",
+        "end-of-list": ""
+    }
+}

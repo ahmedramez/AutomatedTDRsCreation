@@ -1,0 +1,2642 @@
+431
+ {
+vluxgate          |   "id": "5431",
+vluxgate          |   "attributes": {
+vluxgate          |     "attribute": [
+vluxgate          |       {
+vluxgate          |         "id": "109",
+vluxgate          |         "sortOrder": "254",
+vluxgate          |         "value": "209,205,219"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "13",
+vluxgate          |         "sortOrder": "212",
+vluxgate          |         "value": "Violett"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "122",
+vluxgate          |         "sortOrder": "188",
+vluxgate          |         "value": "/media/img/products/170x230/iphone11-violett-s.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "161",
+vluxgate          |         "sortOrder": "145",
+vluxgate          |         "value": "/media/img/products/NSF-90x120/iphone11-violett-90x120-01.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "162",
+vluxgate          |         "sortOrder": "145",
+vluxgate          |         "value": "/media/img/products/NSF-170x230/iphone11-violett-170x230-01.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "159",
+vluxgate          |         "sortOrder": "398",
+vluxgate          |         "value": "/media/img/products/NSF-288x320/iphone11-violett-288x320-02.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "159",
+vluxgate          |         "sortOrder": "397",
+vluxgate          |         "value": "/media/img/products/NSF-288x320/iphone11-violett-288x320-01.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "123",
+vluxgate          |         "sortOrder": "190",
+vluxgate          |         "value": "/media/img/products/228x309/iphone11-violett-l.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "159",
+vluxgate          |         "sortOrder": "455",
+vluxgate          |         "value": "/media/img/products/NSF-288x320/iphone11-violett-288x320-03.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "168",
+vluxgate          |         "sortOrder": "1",
+vluxgate          |         "value": "20190920"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "127",
+vluxgate          |         "sortOrder": "1",
+vluxgate          |         "value": "Verf&#252;gbar ab 20.09. (abh&#228;ngig vom Hersteller)"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "126",
+vluxgate          |         "sortOrder": "1078",
+vluxgate          |         "value": "iPhone 11 Violett (64 GB)"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "14",
+vluxgate          |         "sortOrder": "378",
+vluxgate          |         "value": "64 GB"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "142",
+vluxgate          |         "sortOrder": "249",
+vluxgate          |         "value": "ohne Starter-Kit"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "164",
+vluxgate          |         "sortOrder": "355",
+vluxgate          |         "value": "20190913"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "152",
+vluxgate          |         "sortOrder": "485",
+vluxgate          |         "value": "A038HMAA31201929"
+vluxgate          |
+            }
+vluxgate          |
+        ]
+vluxgate          |
+    },
+vluxgate          |   "backendId": [
+vluxgate          |     {
+vluxgate          |       "system": "SAP",
+vluxgate          |       "value": "301914"
+vluxgate          |
+        }
+vluxgate          |
+    ],
+vluxgate          |   "label": "iPhone 11 Violett (64 GB)",
+vluxgate          |   "parentDeviceRef": {
+vluxgate          |     "id": "5340",
+vluxgate          |     "attributes": {
+vluxgate          |       "attribute": [
+vluxgate          |         {
+vluxgate          |           "id": "25",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "0"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "36",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "40",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "42",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "71",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "78",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "81",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "86",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "118",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "Apple"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "12",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "iOS"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "103",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "104",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1215",
+vluxgate          |           "value": "Hinweis: F&#252;r das iPhone steht unser Handy-Austausch-Service (Bereitstellung eines Austauschger&#228;ts innerhalb von 48 Stunden) derzeit nicht zur Verf&#252;gung."
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "41",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "43",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "Smartphone"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "172",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "50",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "99",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "Nano-SIM"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "87",
+vluxgate          |           "value": "J1 (Sub 40.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "151",
+vluxgate          |           "sortOrder": "28",
+vluxgate          |           "value": "HMAA31201929"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "153",
+vluxgate          |           "sortOrder": "28",
+vluxgate          |           "value": "0"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "154",
+vluxgate          |           "sortOrder": "28",
+vluxgate          |           "value": "0.0"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "88",
+vluxgate          |           "value": "I1 (Sub 30.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "89",
+vluxgate          |           "value": "H3 (Sub 25.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "90",
+vluxgate          |           "value": "H1 (Sub 25.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "91",
+vluxgate          |           "value": "G1 (Sub 20.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "115",
+vluxgate          |           "sortOrder": "11",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "195",
+vluxgate          |           "sortOrder": "7",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "207",
+vluxgate          |           "sortOrder": "7",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "217",
+vluxgate          |           "sortOrder": "7",
+vluxgate          |           "value": "2 (Dual-SIM)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "99",
+vluxgate          |           "sortOrder": "10",
+vluxgate          |           "value": "eSIM"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "72",
+vluxgate          |           "sortOrder": "11",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "87",
+vluxgate          |           "sortOrder": "13",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "143",
+vluxgate          |           "sortOrder": "79",
+vluxgate          |           "value": "6,1 Zoll Liquid Retina HD Display (15,49 cm)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "143",
+vluxgate          |           "sortOrder": "80",
+vluxgate          |           "value": "12 Megapixel Zweifach-Kamera"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "143",
+vluxgate          |           "sortOrder": "81",
+vluxgate          |           "value": "A13 Bionic Chip"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "20",
+vluxgate          |           "sortOrder": "34",
+vluxgate          |           "value": "150,9 x 75,7 x 8,3"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "15",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "194"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "57",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "6.1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "58",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "15,49"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "59",
+vluxgate          |           "sortOrder": "48",
+vluxgate          |           "value": "1792 x 828"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "157",
+vluxgate          |           "sortOrder": "10",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "28",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "A13 Bionic Chip"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "47",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "12"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "222",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "12 + 12"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "53",
+vluxgate          |           "sortOrder": "23",
+vluxgate          |           "value": "(4K) 3840 x 2160"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "51",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "12"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "54",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "(4K) 3840 x 2160"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "83",
+vluxgate          |           "sortOrder": "21",
+vluxgate          |           "value": "5.0"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "226",
+vluxgate          |           "sortOrder": "4",
+vluxgate          |           "value": "17"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "19",
+vluxgate          |           "sortOrder": "9",
+vluxgate          |           "value": "65"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1203",
+vluxgate          |           "value": "EarPods mit Lightning Anschluss"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1204",
+vluxgate          |           "value": "Lightning auf USB Kabel"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1205",
+vluxgate          |           "value": "USB Power Adapter (Netzteil)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1206",
+vluxgate          |           "value": "Dokumentation"
+vluxgate          |
+                }
+vluxgate          |
+            ]
+vluxgate          |
+        },
+vluxgate          |     "label": "iPhone 11",
+vluxgate          |     "atomicDevicesLength": 36
+vluxgate          |
+    }
+vluxgate          |
+}
+vluxgate          | 5432
+vluxgate          | {
+vluxgate          |   "id": "5432",
+vluxgate          |   "attributes": {
+vluxgate          |     "attribute": [
+vluxgate          |       {
+vluxgate          |         "id": "109",
+vluxgate          |         "sortOrder": "254",
+vluxgate          |         "value": "209,205,219"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "13",
+vluxgate          |         "sortOrder": "212",
+vluxgate          |         "value": "Violett"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "122",
+vluxgate          |         "sortOrder": "188",
+vluxgate          |         "value": "/media/img/products/170x230/iphone11-violett-s.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "161",
+vluxgate          |         "sortOrder": "145",
+vluxgate          |         "value": "/media/img/products/NSF-90x120/iphone11-violett-90x120-01.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "162",
+vluxgate          |         "sortOrder": "145",
+vluxgate          |         "value": "/media/img/products/NSF-170x230/iphone11-violett-170x230-01.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "159",
+vluxgate          |         "sortOrder": "398",
+vluxgate          |         "value": "/media/img/products/NSF-288x320/iphone11-violett-288x320-02.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "159",
+vluxgate          |         "sortOrder": "397",
+vluxgate          |         "value": "/media/img/products/NSF-288x320/iphone11-violett-288x320-01.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "123",
+vluxgate          |         "sortOrder": "190",
+vluxgate          |         "value": "/media/img/products/228x309/iphone11-violett-l.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "159",
+vluxgate          |         "sortOrder": "455",
+vluxgate          |         "value": "/media/img/products/NSF-288x320/iphone11-violett-288x320-03.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "168",
+vluxgate          |         "sortOrder": "1",
+vluxgate          |         "value": "20190920"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "127",
+vluxgate          |         "sortOrder": "1",
+vluxgate          |         "value": "Verf&#252;gbar ab 20.09. (abh&#228;ngig vom Hersteller)"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "126",
+vluxgate          |         "sortOrder": "1076",
+vluxgate          |         "value": "iPhone 11 Violett (128 GB)"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "14",
+vluxgate          |         "sortOrder": "376",
+vluxgate          |         "value": "128 GB"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "142",
+vluxgate          |         "sortOrder": "247",
+vluxgate          |         "value": "ohne Starter-Kit"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "164",
+vluxgate          |         "sortOrder": "353",
+vluxgate          |         "value": "20190913"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "152",
+vluxgate          |         "sortOrder": "483",
+vluxgate          |         "value": "A036HMAA31201929"
+vluxgate          |
+            }
+vluxgate          |
+        ]
+vluxgate          |
+    },
+vluxgate          |   "backendId": [
+vluxgate          |     {
+vluxgate          |       "system": "SAP",
+vluxgate          |       "value": "301920"
+vluxgate          |
+        }
+vluxgate          |
+    ],
+vluxgate          |   "label": "iPhone 11 Violett (128 GB)",
+vluxgate          |   "parentDeviceRef": {
+vluxgate          |     "id": "5340",
+vluxgate          |     "attributes": {
+vluxgate          |       "attribute": [
+vluxgate          |         {
+vluxgate          |           "id": "25",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "0"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "36",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "40",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "42",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "71",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "78",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "81",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "86",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "118",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "Apple"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "12",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "iOS"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "103",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "104",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1215",
+vluxgate          |           "value": "Hinweis: F&#252;r das iPhone steht unser Handy-Austausch-Service (Bereitstellung eines Austauschger&#228;ts innerhalb von 48 Stunden) derzeit nicht zur Verf&#252;gung."
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "41",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "43",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "Smartphone"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "172",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "50",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "99",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "Nano-SIM"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "87",
+vluxgate          |           "value": "J1 (Sub 40.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "151",
+vluxgate          |           "sortOrder": "28",
+vluxgate          |           "value": "HMAA31201929"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "153",
+vluxgate          |           "sortOrder": "28",
+vluxgate          |           "value": "0"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "154",
+vluxgate          |           "sortOrder": "28",
+vluxgate          |           "value": "0.0"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "88",
+vluxgate          |           "value": "I1 (Sub 30.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "89",
+vluxgate          |           "value": "H3 (Sub 25.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "90",
+vluxgate          |           "value": "H1 (Sub 25.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "91",
+vluxgate          |           "value": "G1 (Sub 20.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "115",
+vluxgate          |           "sortOrder": "11",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "195",
+vluxgate          |           "sortOrder": "7",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "207",
+vluxgate          |           "sortOrder": "7",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "217",
+vluxgate          |           "sortOrder": "7",
+vluxgate          |           "value": "2 (Dual-SIM)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "99",
+vluxgate          |           "sortOrder": "10",
+vluxgate          |           "value": "eSIM"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "72",
+vluxgate          |           "sortOrder": "11",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "87",
+vluxgate          |           "sortOrder": "13",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "143",
+vluxgate          |           "sortOrder": "79",
+vluxgate          |           "value": "6,1 Zoll Liquid Retina HD Display (15,49 cm)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "143",
+vluxgate          |           "sortOrder": "80",
+vluxgate          |           "value": "12 Megapixel Zweifach-Kamera"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "143",
+vluxgate          |           "sortOrder": "81",
+vluxgate          |           "value": "A13 Bionic Chip"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "20",
+vluxgate          |           "sortOrder": "34",
+vluxgate          |           "value": "150,9 x 75,7 x 8,3"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "15",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "194"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "57",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "6.1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "58",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "15,49"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "59",
+vluxgate          |           "sortOrder": "48",
+vluxgate          |           "value": "1792 x 828"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "157",
+vluxgate          |           "sortOrder": "10",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "28",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "A13 Bionic Chip"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "47",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "12"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "222",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "12 + 12"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "53",
+vluxgate          |           "sortOrder": "23",
+vluxgate          |           "value": "(4K) 3840 x 2160"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "51",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "12"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "54",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "(4K) 3840 x 2160"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "83",
+vluxgate          |           "sortOrder": "21",
+vluxgate          |           "value": "5.0"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "226",
+vluxgate          |           "sortOrder": "4",
+vluxgate          |           "value": "17"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "19",
+vluxgate          |           "sortOrder": "9",
+vluxgate          |           "value": "65"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1203",
+vluxgate          |           "value": "EarPods mit Lightning Anschluss"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1204",
+vluxgate          |           "value": "Lightning auf USB Kabel"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1205",
+vluxgate          |           "value": "USB Power Adapter (Netzteil)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1206",
+vluxgate          |           "value": "Dokumentation"
+vluxgate          |
+                }
+vluxgate          |
+            ]
+vluxgate          |
+        },
+vluxgate          |     "label": "iPhone 11",
+vluxgate          |     "atomicDevicesLength": 36
+vluxgate          |
+    }
+vluxgate          |
+}
+vluxgate          | 5433
+vluxgate          | {
+vluxgate          |   "id": "5433",
+vluxgate          |   "attributes": {
+vluxgate          |     "attribute": [
+vluxgate          |       {
+vluxgate          |         "id": "109",
+vluxgate          |         "sortOrder": "254",
+vluxgate          |         "value": "209,205,219"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "13",
+vluxgate          |         "sortOrder": "212",
+vluxgate          |         "value": "Violett"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "122",
+vluxgate          |         "sortOrder": "188",
+vluxgate          |         "value": "/media/img/products/170x230/iphone11-violett-s.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "161",
+vluxgate          |         "sortOrder": "145",
+vluxgate          |         "value": "/media/img/products/NSF-90x120/iphone11-violett-90x120-01.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "162",
+vluxgate          |         "sortOrder": "145",
+vluxgate          |         "value": "/media/img/products/NSF-170x230/iphone11-violett-170x230-01.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "159",
+vluxgate          |         "sortOrder": "398",
+vluxgate          |         "value": "/media/img/products/NSF-288x320/iphone11-violett-288x320-02.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "159",
+vluxgate          |         "sortOrder": "397",
+vluxgate          |         "value": "/media/img/products/NSF-288x320/iphone11-violett-288x320-01.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "123",
+vluxgate          |         "sortOrder": "190",
+vluxgate          |         "value": "/media/img/products/228x309/iphone11-violett-l.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "159",
+vluxgate          |         "sortOrder": "455",
+vluxgate          |         "value": "/media/img/products/NSF-288x320/iphone11-violett-288x320-03.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "168",
+vluxgate          |         "sortOrder": "1",
+vluxgate          |         "value": "20190920"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "127",
+vluxgate          |         "sortOrder": "1",
+vluxgate          |         "value": "Verf&#252;gbar ab 20.09. (abh&#228;ngig vom Hersteller)"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "126",
+vluxgate          |         "sortOrder": "1077",
+vluxgate          |         "value": "iPhone 11 Violett (256 GB)"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "14",
+vluxgate          |         "sortOrder": "377",
+vluxgate          |         "value": "256 GB"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "142",
+vluxgate          |         "sortOrder": "248",
+vluxgate          |         "value": "ohne Starter-Kit"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "164",
+vluxgate          |         "sortOrder": "354",
+vluxgate          |         "value": "20190913"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "152",
+vluxgate          |         "sortOrder": "484",
+vluxgate          |         "value": "A037HMAA31201929"
+vluxgate          |
+            }
+vluxgate          |
+        ]
+vluxgate          |
+    },
+vluxgate          |   "backendId": [
+vluxgate          |     {
+vluxgate          |       "system": "SAP",
+vluxgate          |       "value": "301926"
+vluxgate          |
+        }
+vluxgate          |
+    ],
+vluxgate          |   "label": "iPhone 11 Violett (256 GB)",
+vluxgate          |   "parentDeviceRef": {
+vluxgate          |     "id": "5340",
+vluxgate          |     "attributes": {
+vluxgate          |       "attribute": [
+vluxgate          |         {
+vluxgate          |           "id": "25",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "0"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "36",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "40",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "42",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "71",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "78",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "81",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "86",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "118",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "Apple"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "12",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "iOS"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "103",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "104",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1215",
+vluxgate          |           "value": "Hinweis: F&#252;r das iPhone steht unser Handy-Austausch-Service (Bereitstellung eines Austauschger&#228;ts innerhalb von 48 Stunden) derzeit nicht zur Verf&#252;gung."
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "41",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "43",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "Smartphone"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "172",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "50",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "99",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "Nano-SIM"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "87",
+vluxgate          |           "value": "J1 (Sub 40.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "151",
+vluxgate          |           "sortOrder": "28",
+vluxgate          |           "value": "HMAA31201929"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "153",
+vluxgate          |           "sortOrder": "28",
+vluxgate          |           "value": "0"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "154",
+vluxgate          |           "sortOrder": "28",
+vluxgate          |           "value": "0.0"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "88",
+vluxgate          |           "value": "I1 (Sub 30.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "89",
+vluxgate          |           "value": "H3 (Sub 25.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "90",
+vluxgate          |           "value": "H1 (Sub 25.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "91",
+vluxgate          |           "value": "G1 (Sub 20.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "115",
+vluxgate          |           "sortOrder": "11",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "195",
+vluxgate          |           "sortOrder": "7",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "207",
+vluxgate          |           "sortOrder": "7",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "217",
+vluxgate          |           "sortOrder": "7",
+vluxgate          |           "value": "2 (Dual-SIM)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "99",
+vluxgate          |           "sortOrder": "10",
+vluxgate          |           "value": "eSIM"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "72",
+vluxgate          |           "sortOrder": "11",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "87",
+vluxgate          |           "sortOrder": "13",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "143",
+vluxgate          |           "sortOrder": "79",
+vluxgate          |           "value": "6,1 Zoll Liquid Retina HD Display (15,49 cm)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "143",
+vluxgate          |           "sortOrder": "80",
+vluxgate          |           "value": "12 Megapixel Zweifach-Kamera"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "143",
+vluxgate          |           "sortOrder": "81",
+vluxgate          |           "value": "A13 Bionic Chip"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "20",
+vluxgate          |           "sortOrder": "34",
+vluxgate          |           "value": "150,9 x 75,7 x 8,3"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "15",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "194"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "57",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "6.1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "58",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "15,49"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "59",
+vluxgate          |           "sortOrder": "48",
+vluxgate          |           "value": "1792 x 828"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "157",
+vluxgate          |           "sortOrder": "10",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "28",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "A13 Bionic Chip"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "47",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "12"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "222",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "12 + 12"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "53",
+vluxgate          |           "sortOrder": "23",
+vluxgate          |           "value": "(4K) 3840 x 2160"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "51",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "12"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "54",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "(4K) 3840 x 2160"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "83",
+vluxgate          |           "sortOrder": "21",
+vluxgate          |           "value": "5.0"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "226",
+vluxgate          |           "sortOrder": "4",
+vluxgate          |           "value": "17"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "19",
+vluxgate          |           "sortOrder": "9",
+vluxgate          |           "value": "65"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1203",
+vluxgate          |           "value": "EarPods mit Lightning Anschluss"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1204",
+vluxgate          |           "value": "Lightning auf USB Kabel"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1205",
+vluxgate          |           "value": "USB Power Adapter (Netzteil)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1206",
+vluxgate          |           "value": "Dokumentation"
+vluxgate          |
+                }
+vluxgate          |
+            ]
+vluxgate          |
+        },
+vluxgate          |     "label": "iPhone 11",
+vluxgate          |     "atomicDevicesLength": 36
+vluxgate          |
+    }
+vluxgate          |
+}
+vluxgate          | 5440
+vluxgate          | {
+vluxgate          |   "id": "5440",
+vluxgate          |   "attributes": {
+vluxgate          |     "attribute": [
+vluxgate          |       {
+vluxgate          |         "id": "109",
+vluxgate          |         "sortOrder": "256",
+vluxgate          |         "value": "180,19,37"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "13",
+vluxgate          |         "sortOrder": "214",
+vluxgate          |         "value": "(PRODUCT) RED"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "159",
+vluxgate          |         "sortOrder": "389",
+vluxgate          |         "value": "/media/img/products/NSF-288x320/iphone11-rot-288x320-01.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "159",
+vluxgate          |         "sortOrder": "390",
+vluxgate          |         "value": "/media/img/products/NSF-288x320/iphone11-rot-288x320-02.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "162",
+vluxgate          |         "sortOrder": "141",
+vluxgate          |         "value": "/media/img/products/NSF-170x230/iphone11-rot-170x230-01.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "161",
+vluxgate          |         "sortOrder": "141",
+vluxgate          |         "value": "/media/img/products/NSF-90x120/iphone11-rot-90x120-01.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "122",
+vluxgate          |         "sortOrder": "184",
+vluxgate          |         "value": "/media/img/products/170x230/iphone11-rot-s.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "123",
+vluxgate          |         "sortOrder": "186",
+vluxgate          |         "value": "/media/img/products/228x309/iphone11-rot-l.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "159",
+vluxgate          |         "sortOrder": "451",
+vluxgate          |         "value": "/media/img/products/NSF-288x320/iphone11-rot-288x320-03.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "168",
+vluxgate          |         "sortOrder": "1",
+vluxgate          |         "value": "20190920"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "127",
+vluxgate          |         "sortOrder": "1",
+vluxgate          |         "value": "Verf&#252;gbar ab 20.09. (abh&#228;ngig vom Hersteller)"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "126",
+vluxgate          |         "sortOrder": "1090",
+vluxgate          |         "value": "iPhone 11 (PRODUCT) RED (64 GB)"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "14",
+vluxgate          |         "sortOrder": "387",
+vluxgate          |         "value": "64 GB"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "142",
+vluxgate          |         "sortOrder": "255",
+vluxgate          |         "value": "ohne Starter-Kit"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "164",
+vluxgate          |         "sortOrder": "364",
+vluxgate          |         "value": "20190913"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "152",
+vluxgate          |         "sortOrder": "494",
+vluxgate          |         "value": "A047HMAA31201929"
+vluxgate          |
+            }
+vluxgate          |
+        ]
+vluxgate          |
+    },
+vluxgate          |   "backendId": [
+vluxgate          |     {
+vluxgate          |       "system": "SAP",
+vluxgate          |       "value": "301912"
+vluxgate          |
+        }
+vluxgate          |
+    ],
+vluxgate          |   "label": "iPhone 11 (PRODUCT) RED (64 GB)",
+vluxgate          |   "parentDeviceRef": {
+vluxgate          |     "id": "5340",
+vluxgate          |     "attributes": {
+vluxgate          |       "attribute": [
+vluxgate          |         {
+vluxgate          |           "id": "25",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "0"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "36",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "40",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "42",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "71",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "78",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "81",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "86",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "118",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "Apple"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "12",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "iOS"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "103",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "104",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1215",
+vluxgate          |           "value": "Hinweis: F&#252;r das iPhone steht unser Handy-Austausch-Service (Bereitstellung eines Austauschger&#228;ts innerhalb von 48 Stunden) derzeit nicht zur Verf&#252;gung."
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "41",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "43",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "Smartphone"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "172",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "50",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "99",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "Nano-SIM"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "87",
+vluxgate          |           "value": "J1 (Sub 40.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "151",
+vluxgate          |           "sortOrder": "28",
+vluxgate          |           "value": "HMAA31201929"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "153",
+vluxgate          |           "sortOrder": "28",
+vluxgate          |           "value": "0"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "154",
+vluxgate          |           "sortOrder": "28",
+vluxgate          |           "value": "0.0"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "88",
+vluxgate          |           "value": "I1 (Sub 30.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "89",
+vluxgate          |           "value": "H3 (Sub 25.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "90",
+vluxgate          |           "value": "H1 (Sub 25.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "91",
+vluxgate          |           "value": "G1 (Sub 20.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "115",
+vluxgate          |           "sortOrder": "11",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "195",
+vluxgate          |           "sortOrder": "7",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "207",
+vluxgate          |           "sortOrder": "7",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "217",
+vluxgate          |           "sortOrder": "7",
+vluxgate          |           "value": "2 (Dual-SIM)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "99",
+vluxgate          |           "sortOrder": "10",
+vluxgate          |           "value": "eSIM"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "72",
+vluxgate          |           "sortOrder": "11",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "87",
+vluxgate          |           "sortOrder": "13",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "143",
+vluxgate          |           "sortOrder": "79",
+vluxgate          |           "value": "6,1 Zoll Liquid Retina HD Display (15,49 cm)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "143",
+vluxgate          |           "sortOrder": "80",
+vluxgate          |           "value": "12 Megapixel Zweifach-Kamera"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "143",
+vluxgate          |           "sortOrder": "81",
+vluxgate          |           "value": "A13 Bionic Chip"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "20",
+vluxgate          |           "sortOrder": "34",
+vluxgate          |           "value": "150,9 x 75,7 x 8,3"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "15",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "194"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "57",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "6.1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "58",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "15,49"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "59",
+vluxgate          |           "sortOrder": "48",
+vluxgate          |           "value": "1792 x 828"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "157",
+vluxgate          |           "sortOrder": "10",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "28",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "A13 Bionic Chip"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "47",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "12"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "222",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "12 + 12"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "53",
+vluxgate          |           "sortOrder": "23",
+vluxgate          |           "value": "(4K) 3840 x 2160"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "51",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "12"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "54",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "(4K) 3840 x 2160"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "83",
+vluxgate          |           "sortOrder": "21",
+vluxgate          |           "value": "5.0"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "226",
+vluxgate          |           "sortOrder": "4",
+vluxgate          |           "value": "17"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "19",
+vluxgate          |           "sortOrder": "9",
+vluxgate          |           "value": "65"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1203",
+vluxgate          |           "value": "EarPods mit Lightning Anschluss"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1204",
+vluxgate          |           "value": "Lightning auf USB Kabel"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1205",
+vluxgate          |           "value": "USB Power Adapter (Netzteil)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1206",
+vluxgate          |           "value": "Dokumentation"
+vluxgate          |
+                }
+vluxgate          |
+            ]
+vluxgate          |
+        },
+vluxgate          |     "label": "iPhone 11",
+vluxgate          |     "atomicDevicesLength": 36
+vluxgate          |
+    }
+vluxgate          |
+}
+vluxgate          | 5441
+vluxgate          | {
+vluxgate          |   "id": "5441",
+vluxgate          |   "attributes": {
+vluxgate          |     "attribute": [
+vluxgate          |       {
+vluxgate          |         "id": "109",
+vluxgate          |         "sortOrder": "256",
+vluxgate          |         "value": "180,19,37"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "13",
+vluxgate          |         "sortOrder": "214",
+vluxgate          |         "value": "(PRODUCT) RED"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "159",
+vluxgate          |         "sortOrder": "389",
+vluxgate          |         "value": "/media/img/products/NSF-288x320/iphone11-rot-288x320-01.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "159",
+vluxgate          |         "sortOrder": "390",
+vluxgate          |         "value": "/media/img/products/NSF-288x320/iphone11-rot-288x320-02.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "162",
+vluxgate          |         "sortOrder": "141",
+vluxgate          |         "value": "/media/img/products/NSF-170x230/iphone11-rot-170x230-01.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "161",
+vluxgate          |         "sortOrder": "141",
+vluxgate          |         "value": "/media/img/products/NSF-90x120/iphone11-rot-90x120-01.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "122",
+vluxgate          |         "sortOrder": "184",
+vluxgate          |         "value": "/media/img/products/170x230/iphone11-rot-s.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "123",
+vluxgate          |         "sortOrder": "186",
+vluxgate          |         "value": "/media/img/products/228x309/iphone11-rot-l.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "159",
+vluxgate          |         "sortOrder": "451",
+vluxgate          |         "value": "/media/img/products/NSF-288x320/iphone11-rot-288x320-03.png"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "168",
+vluxgate          |         "sortOrder": "1",
+vluxgate          |         "value": "20190920"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "127",
+vluxgate          |         "sortOrder": "1",
+vluxgate          |         "value": "Verf&#252;gbar ab 20.09. (abh&#228;ngig vom Hersteller)"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "126",
+vluxgate          |         "sortOrder": "1088",
+vluxgate          |         "value": "iPhone 11 (PRODUCT) RED (128 GB)"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "14",
+vluxgate          |         "sortOrder": "385",
+vluxgate          |         "value": "128 GB"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "142",
+vluxgate          |         "sortOrder": "253",
+vluxgate          |         "value": "ohne Starter-Kit"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "164",
+vluxgate          |         "sortOrder": "362",
+vluxgate          |         "value": "20190913"
+vluxgate          |
+            },
+vluxgate          |       {
+vluxgate          |         "id": "152",
+vluxgate          |         "sortOrder": "492",
+vluxgate          |         "value": "A045HMAA31201929"
+vluxgate          |
+            }
+vluxgate          |
+        ]
+vluxgate          |
+    },
+vluxgate          |   "backendId": [
+vluxgate          |     {
+vluxgate          |       "system": "SAP",
+vluxgate          |       "value": "301918"
+vluxgate          |
+        }
+vluxgate          |
+    ],
+vluxgate          |   "label": "iPhone 11 (PRODUCT) RED (128 GB)",
+vluxgate          |   "parentDeviceRef": {
+vluxgate          |     "id": "5340",
+vluxgate          |     "attributes": {
+vluxgate          |       "attribute": [
+vluxgate          |         {
+vluxgate          |           "id": "25",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "0"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "36",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "40",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "42",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "71",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "78",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "81",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "86",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "118",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "Apple"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "12",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "iOS"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "103",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "104",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1215",
+vluxgate          |           "value": "Hinweis: F&#252;r das iPhone steht unser Handy-Austausch-Service (Bereitstellung eines Austauschger&#228;ts innerhalb von 48 Stunden) derzeit nicht zur Verf&#252;gung."
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "41",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "43",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "Smartphone"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "172",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "50",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "99",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "Nano-SIM"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "87",
+vluxgate          |           "value": "J1 (Sub 40.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "151",
+vluxgate          |           "sortOrder": "28",
+vluxgate          |           "value": "HMAA31201929"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "153",
+vluxgate          |           "sortOrder": "28",
+vluxgate          |           "value": "0"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "154",
+vluxgate          |           "sortOrder": "28",
+vluxgate          |           "value": "0.0"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "88",
+vluxgate          |           "value": "I1 (Sub 30.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "89",
+vluxgate          |           "value": "H3 (Sub 25.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "90",
+vluxgate          |           "value": "H1 (Sub 25.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "91",
+vluxgate          |           "value": "G1 (Sub 20.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "115",
+vluxgate          |           "sortOrder": "11",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "195",
+vluxgate          |           "sortOrder": "7",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "207",
+vluxgate          |           "sortOrder": "7",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "217",
+vluxgate          |           "sortOrder": "7",
+vluxgate          |           "value": "2 (Dual-SIM)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "99",
+vluxgate          |           "sortOrder": "10",
+vluxgate          |           "value": "eSIM"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "72",
+vluxgate          |           "sortOrder": "11",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "87",
+vluxgate          |           "sortOrder": "13",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "143",
+vluxgate          |           "sortOrder": "79",
+vluxgate          |           "value": "6,1 Zoll Liquid Retina HD Display (15,49 cm)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "143",
+vluxgate          |           "sortOrder": "80",
+vluxgate          |           "value": "12 Megapixel Zweifach-Kamera"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "143",
+vluxgate          |           "sortOrder": "81",
+vluxgate          |           "value": "A13 Bionic Chip"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "20",
+vluxgate          |           "sortOrder": "34",
+vluxgate          |           "value": "150,9 x 75,7 x 8,3"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "15",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "194"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "57",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "6.1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "58",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "15,49"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "59",
+vluxgate          |           "sortOrder": "48",
+vluxgate          |           "value": "1792 x 828"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "157",
+vluxgate          |           "sortOrder": "10",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "28",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "A13 Bionic Chip"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "47",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "12"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "222",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "12 + 12"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "53",
+vluxgate          |           "sortOrder": "23",
+vluxgate          |           "value": "(4K) 3840 x 2160"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "51",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "12"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "54",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "(4K) 3840 x 2160"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "83",
+vluxgate          |           "sortOrder": "21",
+vluxgate          |           "value": "5.0"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "226",
+vluxgate          |           "sortOrder": "4",
+vluxgate          |           "value": "17"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "19",
+vluxgate          |           "sortOrder": "9",
+vluxgate          |           "value": "65"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1203",
+vluxgate          |           "value": "EarPods mit Lightning Anschluss"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1204",
+vluxgate          |           "value": "Lightning auf USB Kabel"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1205",
+vluxgate          |           "value": "USB Power Adapter (Netzteil)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1206",
+vluxgate          |           "value": "Dokumentation"
+vluxgate          |
+                }
+vluxgate          |
+            ]
+vluxgate          |
+        },
+vluxgate          |     "label": "iPhone 11",
+vluxgate          |     "atomicDevicesLength": 36
+vluxgate          |
+    }
+vluxgate          |
+}
+vluxgate          | 5442
+vluxgate          | {
+vluxgate          |   "id": "5442",
+vluxgate          |   "attributes": {},
+vluxgate          |   "backendId": [],
+vluxgate          |   "label": "iPhone 11 (PRODUCT) RED (256 GB)",
+vluxgate          |   "parentDeviceRef": {
+vluxgate          |     "id": "5340",
+vluxgate          |     "attributes": {
+vluxgate          |       "attribute": [
+vluxgate          |         {
+vluxgate          |           "id": "25",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "0"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "36",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "40",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "42",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "71",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "78",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "81",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "86",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "118",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "Apple"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "12",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "iOS"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "103",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "104",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1215",
+vluxgate          |           "value": "Hinweis: F&#252;r das iPhone steht unser Handy-Austausch-Service (Bereitstellung eines Austauschger&#228;ts innerhalb von 48 Stunden) derzeit nicht zur Verf&#252;gung."
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "41",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "43",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "Smartphone"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "172",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "50",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "99",
+vluxgate          |           "sortOrder": "2",
+vluxgate          |           "value": "Nano-SIM"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "87",
+vluxgate          |           "value": "J1 (Sub 40.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "151",
+vluxgate          |           "sortOrder": "28",
+vluxgate          |           "value": "HMAA31201929"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "153",
+vluxgate          |           "sortOrder": "28",
+vluxgate          |           "value": "0"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "154",
+vluxgate          |           "sortOrder": "28",
+vluxgate          |           "value": "0.0"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "88",
+vluxgate          |           "value": "I1 (Sub 30.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "89",
+vluxgate          |           "value": "H3 (Sub 25.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "90",
+vluxgate          |           "value": "H1 (Sub 25.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "221",
+vluxgate          |           "sortOrder": "91",
+vluxgate          |           "value": "G1 (Sub 20.00)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "115",
+vluxgate          |           "sortOrder": "11",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "195",
+vluxgate          |           "sortOrder": "7",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "207",
+vluxgate          |           "sortOrder": "7",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "217",
+vluxgate          |           "sortOrder": "7",
+vluxgate          |           "value": "2 (Dual-SIM)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "99",
+vluxgate          |           "sortOrder": "10",
+vluxgate          |           "value": "eSIM"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "72",
+vluxgate          |           "sortOrder": "11",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "87",
+vluxgate          |           "sortOrder": "13",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "143",
+vluxgate          |           "sortOrder": "79",
+vluxgate          |           "value": "6,1 Zoll Liquid Retina HD Display (15,49 cm)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "143",
+vluxgate          |           "sortOrder": "80",
+vluxgate          |           "value": "12 Megapixel Zweifach-Kamera"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "143",
+vluxgate          |           "sortOrder": "81",
+vluxgate          |           "value": "A13 Bionic Chip"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "20",
+vluxgate          |           "sortOrder": "34",
+vluxgate          |           "value": "150,9 x 75,7 x 8,3"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "15",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "194"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "57",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "6.1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "58",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "15,49"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "59",
+vluxgate          |           "sortOrder": "48",
+vluxgate          |           "value": "1792 x 828"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "157",
+vluxgate          |           "sortOrder": "10",
+vluxgate          |           "value": "1"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "28",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "A13 Bionic Chip"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "47",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "12"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "222",
+vluxgate          |           "sortOrder": "1",
+vluxgate          |           "value": "12 + 12"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "53",
+vluxgate          |           "sortOrder": "23",
+vluxgate          |           "value": "(4K) 3840 x 2160"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "51",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "12"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "54",
+vluxgate          |           "sortOrder": "19",
+vluxgate          |           "value": "(4K) 3840 x 2160"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "83",
+vluxgate          |           "sortOrder": "21",
+vluxgate          |           "value": "5.0"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "226",
+vluxgate          |           "sortOrder": "4",
+vluxgate          |           "value": "17"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "19",
+vluxgate          |           "sortOrder": "9",
+vluxgate          |           "value": "65"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1203",
+vluxgate          |           "value": "EarPods mit Lightning Anschluss"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1204",
+vluxgate          |           "value": "Lightning auf USB Kabel"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1205",
+vluxgate          |           "value": "USB Power Adapter (Netzteil)"
+vluxgate          |
+                },
+vluxgate          |         {
+vluxgate          |           "id": "126",
+vluxgate          |           "sortOrder": "1206",
+vluxgate          |           "value": "Dokumentation"
+vluxgate          |
+                }
+vluxgate          |
+            ]
+vluxgate          |
+        },
+vluxgate          |     "label": "iPhone 11",
+vluxgate          |     "atomicDevicesLength": 36
+vluxgate          |
+    }
+vluxgate          |
+}
+^[
+    [F

@@ -4,7 +4,7 @@
     "Service URL": "",
     "i": "",
     "payload field path&name": "",
-    "record 1": "demo.Sunday",
+    "record 1": "RaniaAbdelMon",
     "record 2": "Peter.Bew111",
     "record 3": "Paul.Bew111",
     "record 4": "Paul.Bew112"
@@ -74,7 +74,7 @@
     "Service URL": "",
     "i": "",
     "payload field path&name": "",
-    "record 1": 49152820712345,
+    "record 1": 49152820712993,
     "record 2": 4915222077022,
     "record 3": 4915222077033,
     "record 4": 4915222077044
@@ -264,7 +264,7 @@
     "Service URL": "/api/de-web/enterprise-resources/core/bss/cus-nil/mobile/customer/customer-parties/{msisdn}/marketing-indicators?market-code=MMC",
     "i": 3,
     "payload field path&name": "customerPartyVBO[0]. marketingPreferences. permissionsList[3].serviceId",
-    "record 1": "WBT",
+    "record 1": "WBTNourhan",
     "record 2": "WBT",
     "record 3": "WBT",
     "record 4": "WBT"
