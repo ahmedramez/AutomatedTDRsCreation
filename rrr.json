@@ -1,0 +1,44 @@
+{
+    "billUsage": {
+        "actualBillButton": {
+            "forKay": {
+                "label": {
+                    "std-headline": "Aktuelle Rechnung"
+                },
+                "details": {
+                    "std-headline": "Herunterladen und ausdrucken"
+                }
+            },
+            "forPeter": {
+                "label": {
+                    "std-headline": "Ihre Kosten netto"
+                },
+                "details": {
+                    "std-headline": "Details und Auswertungen"
+                }
+            },
+            "forPaul": {
+                "label": {
+                    "std-headline": "Aktuelles Guthaben"
+                },
+                "details": {
+                    "std-headline": "etr\u0026\u0023228\u003bge und Datenvolumen"
+                }
+            },
+            "forMark": {
+                "label": {
+                    "std-headline": "Letzte Rechnung"
+                },
+                "details": {
+                    "std-headline": "Details und Auswertungen"
+                },
+                "url": {
+                    "link-href": "meinerechnung?accordion=rechnungsubersicht"
+                },
+                "target": {
+                    "opt-target": "_self"
+                }
+            }
+        }
+    }
+}

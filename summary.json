@@ -1,299 +1,120 @@
 {
-    "item": [
-        {
-            "event": [
-                {
-                    "listen": "prerequest",
-                    "script": {
-                        "type": "text/javascript",
-                        "exec": [
-                            "pm.globals.set(\"auth-cookie\", \"SSOC=SSOC=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjVhYzI0NTFmNDE4MWM1MjE5NTM2NDUxNSIsImVtYWlsIjoiYWhtZWQucmFtZXotbWFobW91ZEB2b2RhZm9uZS5jb20iLCJ1c2VybmFtZSI6IkFobWVkIFJhbWV6IEVsIERlZWIiLCJwYXNzd29yZCI6IjY0NTc5IiwiYXBwbGljYXRpb25zIjpbeyJuYW1lIjoic3R1YnMiLCJtYXJrZXRzIjpbImRlIl19XX0sImlhdCI6MTUzODM5NzEzNiwiZXhwIjoxNTM5NjA2NzM2fQ.Cq8X-xk8qYQrNtneKQCsJAk0oRhmUYfC23uEksb74o4.tXAmfAqH3pqLQ0iSn6kc0dGvrc0vXDW2D6sFBfJv8yc; instance=de-web\");",
-                            ""
-                        ]
-                    }
-                },
-                {
-                    "listen": "test",
-                    "script": {
-                        "type": "text/javascript",
-                        "exec": [
-                            "pm.test(\"POST request State\", function () {",
-                            "    pm.expect(pm.response.code).to.be.oneOf([201,202,200]);",
-                            "});"
-                        ]
-                    }
-                }
-            ],
-            "request": {
-                "method": "PUT",
-                "header": [
-                    {
-                        "key": "Content-Type",
-                        "value": "application/json"
-                    },
-                    {
-                        "key": "Cookie",
-                        "value": "{{auth-cookie}}"
-                    }
-                ],
-                "body": {
-                    "mode": "raw",
-                    "raw": "{\"stubName\":\"test.kay123\",\"respCode\":\"200\",\"identifiers\":{\"username\":\"test.kay123\",\"password\":\"test.kay123\"},\"data\":{\"userId\":\"12345\"},\"cookiesData\":{\"authHint\":\"valid-session\",\"mint-session-id\":\"test.kay123\",\"MDDKeks\":\"{\\\"marketCode\\\": [\\\"MMO\\\", \\\"MMC\\\"],\\\"loginName\\\": \\\"mixed2\\\",\\\"userFirstname\\\": \\\"mixed\\\",\\\"userLastname\\\": \\\"mixed\\\",\\\"customerType\\\": \\\"mobileDSL\\\",\\\"lastLoginDate\\\": \\\"1515595116912\\\"\\n}\"},\"headers\":[{\"key\":\"X-Redirect-Location\",\"value\":\"\"}],\"replaceFlag\":true,\"lastUpdateDate\":1538241232037,\"lastUpdatedBy\":\"5ac2451f4181c52195364515\",\"stubsDataSelectedType\":\"DEV\"}"
-                },
-                "url": {
-                    "raw": "{{host}}/stubs/data/[Login]",
-                    "host": [
-                        "{{host}}"
-                    ],
-                    "path": [
-                        "stubs",
-                        "data",
-                        "[Login]"
-                    ]
-                }
-            },
-            "response": [],
-            "name": "Login"
+    "loginModule": {
+        "title": {
+            "std-headline": "Vodafone Retouren-Portal"
         },
-        {
-            "event": [
-                {
-                    "listen": "test",
-                    "script": {
-                        "type": "text/javascript",
-                        "exec": [
-                            "pm.test(\"POST request State\", function () {",
-                            "    pm.expect(pm.response.code).to.be.oneOf([201,202,200]);",
-                            "});"
-                        ]
-                    }
-                }
-            ],
-            "request": {
-                "method": "PUT",
-                "header": [
-                    {
-                        "key": "Content-Type",
-                        "value": "application/json"
-                    },
-                    {
-                        "key": "Cookie",
-                        "value": "{{auth-cookie}}"
-                    }
-                ],
-                "body": {
-                    "mode": "raw",
-                    "raw": "{\"respCode\":\"200\",\"identifiers\":{},\"data\":{\"userAccountVBO\":{\"onlineUser\":{\"onlineUserID\":23243255,\"userName\":\"test.kay123\",\"title\":\"Herr\",\"firstName\":\"contactData\",\"lastName\":\"Kay\",\"lastLoginDate\":\"2015-03-01T12:02:00\",\"primaryEmail\":\"john.doe@arcor.de\",\"isFirstLogin\":false,\"LastSelectedMBO\":201505001,\"LastSelectedMBOname\":\"Amazing Contract\"},\"mobile\":[{\"contract\":{\"mboId\":201505001,\"mboName\":\"Kay Contact\",\"partyRoleId\":111790,\"ban\":\"TBD\",\"marketCode\":\"MMC\",\"subType\":\"KD\",\"role\":\"CustomerAccountAdmin\",\"access\":\"CustomerAccount\",\"status\":\"effective\",\"registrationDate\":\"2015-01-02\",\"isLastSelectedMBO\":true,\"subscription\":[{\"mboId\":201505003,\"mboName\":\"Kay2\",\"partyRoleId\":111791,\"ban\":\"3102550014\",\"msisdn\":4915010640010,\"marketCode\":\"MMC\",\"subType\":\"TN\",\"role\":\"SubscriptionAdmin\",\"access\":\"FemtoAccessSubscription\",\"status\":\"effective\",\"registrationDate\":\"2015-02-02\",\"isLastSelectedMBO\":false,\"isFemtoSubscription\":false}]}}]}},\"cookiesData\":null,\"headers\":[],\"replaceFlag\":true,\"lastUpdateDate\":1538245236721,\"lastUpdatedBy\":\"5ac2451f4181c52195364515\",\"stubsDataSelectedType\":\"DEV\"}"
-                },
-                "url": {
-                    "raw": "{{host}}/stubs/data/NIL%7C%7CUser",
-                    "host": [
-                        "{{host}}"
-                    ],
-                    "path": [
-                        "stubs",
-                        "data",
-                        "NIL%7C%7CUser"
-                    ]
-                }
-            },
-            "response": [],
-            "name": "NIL||USER"
+        "header": {
+            "std-headline": "Das und mehr kannst Du hier ganz einfach erledigen. Wir helfen Dir dabei."
         },
-        {
-            "event": [
-                {
-                    "listen": "test",
-                    "script": {
-                        "type": "text/javascript",
-                        "exec": [
-                            "pm.test(\"POST request State\", function () {",
-                            "    pm.expect(pm.response.code).to.be.oneOf([201,202,200]);",
-                            "});"
-                        ]
-                    }
-                }
-            ],
-            "request": {
-                "method": "PUT",
-                "header": [
-                    {
-                        "key": "Content-Type",
-                        "value": "application/json"
-                    },
-                    {
-                        "key": "Cookie",
-                        "value": "{{auth-cookie}}"
-                    }
-                ],
-                "body": {
-                    "mode": "raw",
-                    "raw": "{\"stubName\":\"AUTOMATED | 4915010640010\",\"respCode\":\"200\",\"identifiers\":{\"msisdn\":4915010640010},\"data\":{\"customerPartyVBO\":[{\"type\":\"mobile\",\"details\":{\"accountId\":\"106375182\",\"msisdn\":\"4915204365007\",\"marketCode\":\"MMC\"},\"marketingPreferences\":{\"permissionStatus\":\"Initial\",\"permissionsList\":[{\"permissionId\":\"ADV\",\"bewVersion\":3,\"bewText\":\"Ja, ich willige ein, dass Vodafone und Vodafone Kabel Deutschland mich telefonisch, per E-Mail, Messenger, SMS und MMS über Angebote von Vodafone und Vodafone Kabel Deutschland informieren.Ich kann meine Einwilligung jederzeit ganz oder teilweise mit Wirkung für die Zukunft widerrufen.\",\"bewEffectiveDate\":\"2017-04-12\",\"permissionValue\":\"true \",\"serviceId\":\"PDEV \"},{\"permissionId\":\"DEV\",\"bewVersion\":3,\"bewText\":\"Ja, ich willige ein, dass die Vodafone GmbH und die Vodafone Kabel Deutschland GmbH meine Bestandsdaten untereinander austauschen, um mich individuell zu beraten, für ihre Angebote zu werben und Marktforschung zu betreiben.Meine Bestandsdaten sind Angaben rund um mein Vertragsverhältnis, z.B. Name, Adresse und Geburtsdatum sowie Tarife, Optionen und Services.Ja, ich willige ein, dass meine Nutzungsdaten und meine Verkehrsdaten höchstens 6 Monate verwendet werden, um Telekommunikations- und Telemedien-Dienste bedarfsgerecht und individuell zu gestalten und zu vermarkten sowie Dienste mit Zusatznutzen für mich bereitzustellen.Meine Nutzungsdaten sind Informationen über Art, Umfang und Zeitpunkt der Nutzung der Webseiten von Vodafone, Vodafone Kabel    Deutschland oder Kooperations- und Werbepartnern. Die Daten identifizieren mich oder mein Gerät direkt und sind zum Teil in meinem Gerät gespeichert, z.B. als Cookies.Meine Verkehrsdaten sind z.B. die Art des genutzten Telekommunikationsdienstes, Anfang, Ende und Dauer der Verbindungen, das genutzte Datenvolumen, an der Kommunikation beteiligte Personen, Geräte oder Anschlüsse sowie deren Standorte.\",\"bewEffectiveDate\":\"2017-04-12\",\"permissionValue\":true,\"serviceId\":\"CDEV \"},{\"permissionId\":\"DEV\",\"bewVersion\":3,\"bewText\":\"Ja, ich willige ein, dass die Vodafone GmbH und die Vodafone Kabel Deutschland GmbH meine Bestandsdaten untereinander austauschen, um mich individuell zu beraten, für ihre Angebote zu werben und Marktforschung zu betreiben.Meine Bestandsdaten sind Angaben rund um mein Vertragsverhältnis, z.B. Name, Adresse und Geburtsdatum sowie Tarife, Optionen und Services.Ja, ich willige ein, dass meine Nutzungsdaten und meine Verkehrsdaten höchstens 6 Monate verwendet werden, um Telekommunikations- und Telemedien-Dienste bedarfsgerecht und individuell zu gestalten und zu vermarkten sowie Dienste mit Zusatznutzen für mich bereitzustellen.Meine Nutzungsdaten sind Informationen über Art, Umfang und Zeitpunkt der Nutzung der Webseiten von Vodafone, Vodafone Kabel    Deutschland oder Kooperations- und Werbepartnern. Die Daten identifizieren mich oder mein Gerät direkt und sind zum Teil in meinem Gerät gespeichert, z.B. als Cookies.Meine Verkehrsdaten sind z.B. die Art des genutzten Telekommunikationsdienstes, Anfang, Ende und Dauer der Verbindungen, das genutzte Datenvolumen, an der Kommunikation beteiligte Personen, Geräte oder Anschlüsse sowie deren Standorte.\",\"bewEffectiveDate\":\"2017-04-12\",\"permissionValue\":\"true \",\"serviceId\":\"GEO \"}]}}]},\"cookiesData\":null,\"headers\":[],\"replaceFlag\":true,\"lastUpdateDate\":1538245236721,\"lastUpdatedBy\":\"5ac2451f4181c52195364515\",\"stubsDataSelectedType\":\"DEV\"}"
-                },
-                "url": {
-                    "raw": "{{host}}/stubs/data/NIL_marketing-indicators_GET",
-                    "host": [
-                        "{{host}}"
-                    ],
-                    "path": [
-                        "stubs",
-                        "data",
-                        "NIL_marketing-indicators_GET"
-                    ]
-                }
-            },
-            "response": [],
-            "name": "NIL_marketing-indicators_GET"
+        "subHeader": {
+            "std-headline": "Logg Dich ein, um Deine Rücksende-Unterlagen zu erstellen und auszudrucken."
         },
-        {
-            "event": [
-                {
-                    "listen": "prerequest",
-                    "script": {
-                        "type": "text/javascript",
-                        "exec": [
-                            "pm.globals.set(\"auth-cookie\", \"SSOC=SSOC=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjVhYzI0NTFmNDE4MWM1MjE5NTM2NDUxNSIsImVtYWlsIjoiYWhtZWQucmFtZXotbWFobW91ZEB2b2RhZm9uZS5jb20iLCJ1c2VybmFtZSI6IkFobWVkIFJhbWV6IEVsIERlZWIiLCJwYXNzd29yZCI6IjY0NTc5IiwiYXBwbGljYXRpb25zIjpbeyJuYW1lIjoic3R1YnMiLCJtYXJrZXRzIjpbImRlIl19XX0sImlhdCI6MTUzODM5NzEzNiwiZXhwIjoxNTM5NjA2NzM2fQ.Cq8X-xk8qYQrNtneKQCsJAk0oRhmUYfC23uEksb74o4.tXAmfAqH3pqLQ0iSn6kc0dGvrc0vXDW2D6sFBfJv8yc; instance=de-web\");",
-                            ""
-                        ]
-                    }
-                },
-                {
-                    "listen": "test",
-                    "script": {
-                        "type": "text/javascript",
-                        "exec": [
-                            "pm.test(\"POST request State\", function () {",
-                            "    pm.expect(pm.response.code).to.be.oneOf([201,202,200]);",
-                            "});"
-                        ]
-                    }
-                }
-            ],
-            "request": {
-                "method": "PUT",
-                "header": [
-                    {
-                        "key": "Content-Type",
-                        "value": "application/json"
-                    },
-                    {
-                        "key": "Cookie",
-                        "value": "{{auth-cookie}}"
-                    }
-                ],
-                "body": {
-                    "mode": "raw",
-                    "raw": "{\"stubName\":\"test.marie123\",\"respCode\":\"200\",\"identifiers\":{\"username\":\"test.marie123\",\"password\":\"test.marie123\"},\"data\":{\"userId\":\"12345\"},\"cookiesData\":{\"authHint\":\"valid-session\",\"mint-session-id\":\"test.marie123\",\"MDDKeks\":\"{\\\"marketCode\\\": [\\\"MMO\\\", \\\"MMC\\\"],\\\"loginName\\\": \\\"mixed2\\\",\\\"userFirstname\\\": \\\"mixed\\\",\\\"userLastname\\\": \\\"mixed\\\",\\\"customerType\\\": \\\"mobileDSL\\\",\\\"lastLoginDate\\\": \\\"1515595116912\\\"\\n}\"},\"headers\":[{\"key\":\"X-Redirect-Location\",\"value\":\"\"}],\"replaceFlag\":true,\"lastUpdateDate\":1538241232037,\"lastUpdatedBy\":\"5ac2451f4181c52195364515\",\"stubsDataSelectedType\":\"DEV\"}"
-                },
-                "url": {
-                    "raw": "{{host}}/stubs/data/[Login]",
-                    "host": [
-                        "{{host}}"
-                    ],
-                    "path": [
-                        "stubs",
-                        "data",
-                        "[Login]"
-                    ]
-                }
+        "instructionCards": [
+            {
+                "opt-icon": "i-delivery-01-lrg",
+                "std-headline": "Widerruf",
+                "text-body": "Hier kannst Du Deinen Vertrag oder Deine Bestellung widerrufen."
             },
-            "response": [],
-            "name": "Login"
+            {
+                "opt-icon": "i-defect-01-lrg",
+                "std-headline": "Defekt",
+                "text-body": "Dein neues Gerät kam defekt bei Dir an? Dann tausch es hier."
+            },
+            {
+                "opt-icon": "i-return-product-01-lrg",
+                "std-headline": "Zweitversand",
+                "text-body": "Erste Lieferung hat nicht geklappt?<br>Wir senden's nochmal."
+            }
+        ],
+        "requestIdInput": {
+            "label": {
+                "std-headline": "Rufnummer oder Lieferscheinnummer"
+            },
+            "link-text": {
+                "text-body": "Hier findest Du Deine Login-Daten"
+            },
+            "validation-error": {
+                "text-body": "Gib eine gültige Rufnummer oder Lieferscheinnummer ein."
+            }
         },
-        {
-            "event": [
-                {
-                    "listen": "test",
-                    "script": {
-                        "type": "text/javascript",
-                        "exec": [
-                            "pm.test(\"POST request State\", function () {",
-                            "    pm.expect(pm.response.code).to.be.oneOf([201,202,200]);",
-                            "});"
-                        ]
-                    }
-                }
-            ],
-            "request": {
-                "method": "PUT",
-                "header": [
-                    {
-                        "key": "Content-Type",
-                        "value": "application/json"
-                    },
-                    {
-                        "key": "Cookie",
-                        "value": "{{auth-cookie}}"
-                    }
-                ],
-                "body": {
-                    "mode": "raw",
-                    "raw": "{\"stubName\":\"test.marie123\",\"respCode\":\"200\",\"identifiers\":{\"mint-session-id\":\"test.marie123\"},\"data\":{\"mintUserID\":186563784,\"onlineUserID\":31349777,\"userName\":\"test.marie123\",\"primaryEmail\":\"john.doe@vodafone.com\",\"emailValidationStatus\":\"c\",\"firstName\":\"Max\",\"lastName\":\"Mustermann\",\"isFirstLogin\":false,\"permissionFlag\":false,\"mobileContractArray\":[{\"contract\":{\"mboId\":12345678,\"mboName\":\"test name\",\"partyRoleId\":34624523,\"ban\":\"TBD\",\"marketCode\":\"MMC\",\"subType\":\"ek\",\"role\":\"CustomerAccountAdmin\",\"access\":\"CustomerAccount\",\"status\":\"effective\",\"registrationDate\":\"2012-01-19\",\"isActiveContract\":false,\"subscription\":[{\"mboId\":12345678,\"mboName\":\"Single Card1\",\"partyRoleId\":34624521,\"ban\":9642601,\"msisdn\":491520141216,\"marketCode\":\"MMC\",\"subType\":\"ek\",\"role\":\"SubscriptionAdmin\",\"access\":\"AccessSubscription\",\"status\":\"effective\",\"registrationDate\":\"2012-01-19\",\"isActiveContract\":false,\"isFemtoSubscription\":false}]}}],\"fixednetContractArray\":[],\"cableContractArray\":[]},\"cookiesData\":null,\"headers\":[],\"replaceFlag\":true,\"lastUpdateDate\":1538245236721,\"lastUpdatedBy\":\"5ac2451f4181c52195364515\",\"stubsDataSelectedType\":\"DEV\"}"
-                },
-                "url": {
-                    "raw": "{{host}}/stubs/data/NIL%7C%7CUser",
-                    "host": [
-                        "{{host}}"
-                    ],
-                    "path": [
-                        "stubs",
-                        "data",
-                        "NIL%7C%7CUser"
-                    ]
-                }
+        "postCodeInput": {
+            "label": {
+                "std-headline": "Postleitzahl"
             },
-            "response": [],
-            "name": "NIL||USER"
+            "validation-error": {
+                "text-body": "Gib eine gültige Postleitzahl ein."
+            }
         },
-        {
-            "event": [
-                {
-                    "listen": "test",
-                    "script": {
-                        "type": "text/javascript",
-                        "exec": [
-                            "pm.test(\"POST request State\", function () {",
-                            "    pm.expect(pm.response.code).to.be.oneOf([201,202,200]);",
-                            "});"
-                        ]
-                    }
-                }
-            ],
-            "request": {
-                "method": "PUT",
-                "header": [
-                    {
-                        "key": "Content-Type",
-                        "value": "application/json"
-                    },
-                    {
-                        "key": "Cookie",
-                        "value": "{{auth-cookie}}"
-                    }
-                ],
-                "body": {
-                    "mode": "raw",
-                    "raw": "{\"stubName\":\"AUTOMATED | 491520141216\",\"respCode\":\"200\",\"identifiers\":{\"msisdn\":491520141216},\"data\":{\"customerPartyVBO\":[{\"type\":\"mobile\",\"details\":{\"accountId\":\"106375182\",\"msisdn\":\"4915204365007\",\"marketCode\":\"MMC\"},\"marketingPreferences\":{\"permissionStatus\":\"Initial\",\"permissionsList\":[{\"permissionId\":\"ADV\",\"bewVersion\":4,\"bewText\":\"Ja, ich willige ein, dass Vodafone und Vodafone Kabel Deutschland mich telefonisch, per E-Mail, Messenger, SMS und MMS über Angebote von Vodafone und Vodafone Kabel Deutschland informieren.Ich kann meine Einwilligung jederzeit ganz oder teilweise mit Wirkung für die Zukunft widerrufen.\",\"bewEffectiveDate\":\"2017-04-12\",\"permissionValue\":\"true \",\"serviceId\":\"PDEV \"},{\"permissionId\":\"DEV\",\"bewVersion\":3,\"bewText\":\"Ja, ich willige ein, dass die Vodafone GmbH und die Vodafone Kabel Deutschland GmbH meine Bestandsdaten untereinander austauschen, um mich individuell zu beraten, für ihre Angebote zu werben und Marktforschung zu betreiben.Meine Bestandsdaten sind Angaben rund um mein Vertragsverhältnis, z.B. Name, Adresse und Geburtsdatum sowie Tarife, Optionen und Services.Ja, ich willige ein, dass meine Nutzungsdaten und meine Verkehrsdaten höchstens 6 Monate verwendet werden, um Telekommunikations- und Telemedien-Dienste bedarfsgerecht und individuell zu gestalten und zu vermarkten sowie Dienste mit Zusatznutzen für mich bereitzustellen.Meine Nutzungsdaten sind Informationen über Art, Umfang und Zeitpunkt der Nutzung der Webseiten von Vodafone, Vodafone Kabel    Deutschland oder Kooperations- und Werbepartnern. Die Daten identifizieren mich oder mein Gerät direkt und sind zum Teil in meinem Gerät gespeichert, z.B. als Cookies.Meine Verkehrsdaten sind z.B. die Art des genutzten Telekommunikationsdienstes, Anfang, Ende und Dauer der Verbindungen, das genutzte Datenvolumen, an der Kommunikation beteiligte Personen, Geräte oder Anschlüsse sowie deren Standorte.\",\"bewEffectiveDate\":\"2017-04-12\",\"permissionValue\":true,\"serviceId\":\"CDEV \"},{\"permissionId\":\"DEV\",\"bewVersion\":3,\"bewText\":\"Ja, ich willige ein, dass die Vodafone GmbH und die Vodafone Kabel Deutschland GmbH meine Bestandsdaten untereinander austauschen, um mich individuell zu beraten, für ihre Angebote zu werben und Marktforschung zu betreiben.Meine Bestandsdaten sind Angaben rund um mein Vertragsverhältnis, z.B. Name, Adresse und Geburtsdatum sowie Tarife, Optionen und Services.Ja, ich willige ein, dass meine Nutzungsdaten und meine Verkehrsdaten höchstens 6 Monate verwendet werden, um Telekommunikations- und Telemedien-Dienste bedarfsgerecht und individuell zu gestalten und zu vermarkten sowie Dienste mit Zusatznutzen für mich bereitzustellen.Meine Nutzungsdaten sind Informationen über Art, Umfang und Zeitpunkt der Nutzung der Webseiten von Vodafone, Vodafone Kabel    Deutschland oder Kooperations- und Werbepartnern. Die Daten identifizieren mich oder mein Gerät direkt und sind zum Teil in meinem Gerät gespeichert, z.B. als Cookies.Meine Verkehrsdaten sind z.B. die Art des genutzten Telekommunikationsdienstes, Anfang, Ende und Dauer der Verbindungen, das genutzte Datenvolumen, an der Kommunikation beteiligte Personen, Geräte oder Anschlüsse sowie deren Standorte.\",\"bewEffectiveDate\":\"2017-04-12\",\"permissionValue\":\"false \",\"serviceId\":\"GEO \"}]}}]},\"cookiesData\":null,\"headers\":[],\"replaceFlag\":true,\"lastUpdateDate\":1538245236721,\"lastUpdatedBy\":\"5ac2451f4181c52195364515\",\"stubsDataSelectedType\":\"DEV\"}"
-                },
-                "url": {
-                    "raw": "{{host}}/stubs/data/NIL_marketing-indicators_GET",
-                    "host": [
-                        "{{host}}"
-                    ],
-                    "path": [
-                        "stubs",
-                        "data",
-                        "NIL_marketing-indicators_GET"
-                    ]
-                }
+        "orderNumberInput": {
+            "notification": {
+                "std-headline": "Bestellnummer angeben",
+                "text-body": "Du hast Dein Paket an einen Vodafone-Shop liefern lassen. Gib bitte Deine Bestellnummer an, damit wir Deine Bestellung zuordnen zu können."
             },
-            "response": [],
-            "name": "NIL_marketing-indicators_GET"
+            "label": {
+                "std-headline": "Bestellnummer"
+            },
+            "validation-error": {
+                "text-body": "Gib eine gültige Bestellnummer ein."
+            },
+            "link-text": {
+                "text-body": "Hier findest Du Deine Bestellnummer"
+            }
+        },
+        "attemptFaliedErrorMsg": {
+            "std-headline": "Zugang gesperrt",
+            "text-body": "Du hast die Login-Daten mehrmals falsch eingegeben. Darum haben wir den Zugang für 24 Stunden gesperrt."
+        },
+        "combinedInputErrorMsg": {
+            "std-headline": "Falsche Login-Daten",
+            "text-body": "Überprüf Deine Eingabe nochmal. "
+        },
+        "logoutMsg": {
+            "text-body": "Du hast Dich abgemeldet"
+        },
+        "deliveryModal": {
+            "std-headline": "Hier findest Du Deine Login-Daten",
+            "data": [
+                {
+                    "header": {
+                        "std-headline": "Deine Rufnummer findest Du:"
+                    },
+                    "std-headline": "In der E-Mail zur Aktivierung der eSIM",
+                    "img-lrgHref": "/simplicity/assets/img/after-sales/image_01overlay.png"
+                },
+                {
+                    "header": {
+                        "std-headline": "Deine Lieferscheinnummer findest Du:"
+                    },
+                    "std-headline": "1. Auf Deinem Lieferschein",
+                    "img-lrgHref": "/simplicity/assets/img/after-sales/image_02overlay.png"
+                },
+                {
+                    "std-headline": "2. In unserer E-Mail zur Versandbestätigung",
+                    "img-lrgHref": "/simplicity/assets/img/after-sales/image_04overlay.png"
+                }
+            ]
+        },
+        "orderModal": {
+            "std-headline": "Hier findest Du Deine Bestellnummer",
+            "data": [
+                {
+                    "std-headline": "1. Auf Deinem Lieferschein",
+                    "img-lrgHref": "/simplicity/assets/img/after-sales/image_03overlay.png"
+                },
+                {
+                    "std-headline": "2. In unserer E-Mail zur Versandbestätigung",
+                    "img-lrgHref": "/simplicity/assets/img/after-sales/image_05overlay.png"
+                }
+            ]
+        },
+        "infoSection": {
+            "std-headline": "Reparatur?",
+            "text-body": "Dein Gerät ist schon älter als 5 Tage? Oder Du hast ein Apple-Gerät? Dann findest Du <strong><a href='https://www.vodafone.de/hilfe/reparatur-austausch.html'>hier</a></strong> Hilfe."
+        },
+        "loginBtn": {
+            "std-headline": "Login"
+        },
+        "removeOrderBtn": {
+            "std-headline": "Eingabe ändern"
         }
-    ],
-    "info": {
-        "_postman_id": "29549086-4515-49b1-a3d8-c525e574196c",
-        "name": "Stubs Simulation",
-        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
     }
-}

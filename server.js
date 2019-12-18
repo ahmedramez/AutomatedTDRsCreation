@@ -14,6 +14,7 @@ app.post('/api/tdrs/upload', (req, res) => {
     let sampleFile = req.files.sampleFile;
     fs.writeFileSync('./target.xlsx', sampleFile.data);
     convertExcelToJSON().then((response) => {
+        require('fs').writeFileSync('demoWithomarAndmai.json', JSON.stringify(response));
         flowsLauncher.launchFlows(response, () => {
             res.sendFile(path.resolve(__dirname, './newman/' + helper.getNewestFileInDir(path.resolve(__dirname, './newman'))));
         });

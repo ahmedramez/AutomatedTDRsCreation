@@ -1,0 +1,1 @@
+sudo sed -i 's/\/usr\/local\/games\"/\/usr\/local\/games:\/home\/dev\/projects\/vodafone\/simplicity\/node_modules\/grunt\/bin:\/home\/dev\/projects\/vf\/sales-flow\/node_modules\/grunt\/bin\"/g' /etc/environment
