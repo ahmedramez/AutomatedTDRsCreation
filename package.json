@@ -16,7 +16,7 @@
     "jsonpath": "^1.0.0",
     "newman": "^4.0.2",
     "newman-reporter-html": "^1.0.1",
-    "underscore": "^1.9.1",
+    "underscore": "^1.12.1",
     "natives": "^1.1.6"
   }
 }
